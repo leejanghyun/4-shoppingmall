@@ -1,0 +1,34 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+body { background: #fff;}
+
+#container {width: 1200px; margin: auto;}
+
+.boardtable {  border-collapse: collapse;  width:60%;  margin: auto;   position:absolute;
+  padding: 100px;  border-collapse: collapse; position:relative;  top:300%;  left:0%; font-size:40px; font-family: 'Nanum Pen Script', cursive;}
+
+.boardtable th {  padding: 10px;  color: gray; border-bottom: 3px solid;  text-align: left;}
+
+.boardtable td {  color: gray;  padding: 10px;  border-bottom: 1px solid;}
+
+.boardtable tr:hover td {  color: gray;}
+
+.page{    top:500px;    left:500px;    position:absolute;}
+
+
+.R_no{    width:60%;    font-weight: 800;    display:inline-block; width:20px; height:23px; text-align:center;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;}
+
+.L_no{    width:60%;     font-weight: 800;    display:inline-block; width:20px; height:23px; text-align:center;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;}
+
+.no{    width:60%;    margin: 1px;    display:inline-block; width:20px; height:20px; text-align:center;
+    border-radius: 5spx;    -moz-border-radius: 2px;    -webkit-border-radius: 2px;    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;}
+
+a:{color: gray; text-decoration: none;}
+a:link { color: gray; text-decoration: none;}
+a:visited { color: gray; text-decoration: none;}
+a:hover { color: gray; text-decoration: underline;}

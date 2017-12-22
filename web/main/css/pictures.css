@@ -1,0 +1,54 @@
+/*
+CSE 190M, Spring 2009
+Section 8: Photo Gallery
+Sylvia Tashev
+*/
+
+body {
+	background-color: #101010;
+	color: #808080;
+	text-align: center;
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 70%;
+}
+
+#main {
+	margin: auto;
+	width: 90%;
+	height: 380px;
+}
+
+#mainimage {
+	border: 1px solid #808080;
+	height: 360px;
+	padding: 8px;
+}
+
+#pictures {
+	line-height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+#pictures img {
+	height: 60px;
+	margin-left: 5px;
+	margin-right: 5px;
+	vertical-align: top;
+}
+
+#w3c {
+	display: none;
+	margin-top: 2em;
+	text-align: center;
+}
+
+#w3c img {
+	border-width: 0px;
+}

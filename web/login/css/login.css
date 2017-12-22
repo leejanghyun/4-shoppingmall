@@ -1,0 +1,44 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+body { background: #fff; padding: 50px; white-space: nowrap;}
+
+textarea:focus, input:focus { outline: none;}
+
+#container{ width: 900px; margin: auto;}
+
+#logintitle{  text-align: center;  font-size: 150%;  font-weight: 800;   color:#4c4c4c;
+  width: 30%;  margin: auto;   padding: 30px;  border-bottom: 3px solid; font-size:60px; font-family: 'Nanum Pen Script', cursive;}
+
+.logintbl {  padding: 100px;  border-collapse: collapse;    margin: auto; color:#4c4c4c;  border-bottom: 3px solid; 
+  position:relative;  top:300%;  left:0%; font-size:40px; font-family: 'Nanum Pen Script', cursive;}
+.logintbl th {  padding: 10px;   color:#4c4c4c;  text-align: center;}
+.logintbl td {   color:#4c4c4c;  padding: 10px;}
+/*border-bottom: 3px solid;*/
+
+input{  color:#4c4c4c;  border-radius: 5px; padding: .9em 2em .2em; text-shadow: 0 1px 1px rgba(0,0,0,.1);  -webkit-border-radius: .1em;
+-moz-border-radius: .5em;  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);  box-shadow: 0 1px 2px rgba(0,0,0,.1);}
+
+.idfind{
+  border: 2px solid silver;
+  color:#4c4c4c;  background: #fff;  display: inline-block;  outline: none;
+  cursor: pointer;  text-align: center;  text-decoration: none;  font-weight: 800;
+  padding: .2em 2em .2em; text-shadow: 0 1px 1px rgba(0,0,0,.1);  -webkit-border-radius: .1em;
+  -moz-border-radius: .5em;  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  font-size:30px; font-family: 'Nanum Pen Script', cursive;
+}
+
+.loginjoin{ color:#4c4c4c;  background: #fff;  display: inline-block;  outline: none;
+  cursor: pointer;  text-align: center;  text-decoration: none;  font-weight: 800;
+  padding: .2em 2em .2em; text-shadow: 0 1px 1px rgba(0,0,0,.1);  -webkit-border-radius: .1em;
+  -moz-border-radius: .5em;  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  font-size:30px; font-family: 'Nanum Pen Script', cursive;
+
+}
+.login{  color:#4c4c4c;  background: #fff;  display: inline-block;  outline: none;
+  cursor: pointer;  text-align: center;  text-decoration: none;  font-weight: 800;
+  padding: .2em 2em .2em; text-shadow: 0 1px 1px rgba(0,0,0,.1);  -webkit-border-radius: .1em;
+  -moz-border-radius: .5em;  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.1);  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  font-size:30px; font-family: 'Nanum Pen Script', cursive;}

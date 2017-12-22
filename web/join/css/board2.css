@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*공통*/
+
+body{font-size:12px;}
+
+/*table {width:800}*/
+table, th, td {border:1px solid #333333; border-collapse:collapse; padding:5px}
+
+/*서브타이틀*/
+.signSubTitle {color:black; background-color:ghostwhite; text-align:center; font-weight:700; font-size:12px}
+
+/*헤드부 */
+caption{font-size:18px; font-weight:bold; text-decoration:underline; padding:20px;}
+thead, th{ background-color:ghostwhite;}
+
+/*바디부*/
+.toNo, .tdDate , .tdCount {text-align:center;}
+.inBorder {border:solid 1px #CCCCCC ; }
+
+/*버텀부*/
+tfoot { text-align:center; }
+
+/*link*/
+
+/*tbody*/
+tbody a{ color:#333; }
+ 
+tbody a:link{
+	font-size:12px;
+	font-family:굴림;
+	text-decoration:none;
+ }
+ 
+tbody a:visited{
+	font-size:12px;
+	color:#333;
+	font-family:굴림;
+	text-decoration:none;
+		 
+ }
+tbody a:hover{ text-decoration:underline;}
+tbody a:active { font-size:13px; font-family:궁서;}
+ 
+ /*tfoot*/
+ 
+ tfoot a{ color:#06F; }
+ 
+ tfoot a:link{
+	font-size:10pt;
+	font-family:굴림;
+	text-decoration:none;
+ }
+ 
+ tfoot a:visited{
+	font-size:12px;
+	font-family:굴림;
+	text-decoration:none;
+		 
+ }
+ tfoot a:hover{ text-decoration:underline;}
+ tfoot a:active { font-size:13px; font-family:궁서;}
+ 
+
+
+body { background: #fff;
+}
+
+.table {
+  border-collapse: collapse;
+  width:60%;
+  margin: auto; 
+  position:absolute;
+  top:20%;
+  left:20%;
+}  
+.table th {
+  padding: 10px;
+  color: gray;
+  border-bottom: 3px solid beige;
+  text-align: left;
+}
+.table td {
+  color: gray;
+  padding: 10px;
+  border-bottom: 1px solid beige;
+}
+.table tr:hover td {
+  color: gray;
+}
+
+.page{
+    top:350px;
+    left:40%;
+    position:relative;
+    
+}
+
+#write{
+    border-radius: 5spx;
+    color: gray;
+    border-bottom: 3px solid beige;
+    top:100px;
+    left:76%;
+    display:inline-block; width:50px; height:20px; text-align:center;
+    position:relative
+}
+.R_no{
+    width:60%;
+    font-weight: 800;
+    display:inline-block; width:20px; height:23px; text-align:center;
+    border-radius: 2spx;
+    border: solid 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; 
+}
+.L_no{
+    width:60%;
+     font-weight: 800;
+    display:inline-block; width:20px; height:23px; text-align:center;
+    border-radius: 2spx;
+    border: solid 1px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; 
+}
+.no{
+    width:60%;
+    margin: 1px;
+    display:inline-block; width:20px; height:20px; text-align:center;
+    border-radius: 5spx;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; 
+}
+
+a:link { color: gray; text-decoration: none;}
+a:visited { color: gray; text-decoration: none;}
+a:hover { color: gray; text-decoration: underline;}

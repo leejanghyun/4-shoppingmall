@@ -1,0 +1,21 @@
+input[type=text] {
+    background-color: ghostwhite;
+    color: gray;
+    width: 200px;
+    margin: 10px;
+} 
+
+p{
+    color: gray;
+    font-family: courier;
+    font-size:20pt;
+}
+
+img{
+   height: 100%;
+width: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: contain; 
+
+}

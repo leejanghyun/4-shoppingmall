@@ -1,0 +1,46 @@
+.upload_top a{
+    color: grey;
+    font-family: courier;
+    font-size:10pt;
+}
+.upload_top p{
+    color: grey;
+    font-family: courier;
+    font-size:10pt;
+}
+
+input[type=text] {
+    background-color: ghostwhite;
+    color: gray;
+    width: 200px;
+    margin: 10px;
+} 
+
+#condition{
+    background-color: ghostwhite;
+    color: gray;
+    width: 150px;
+} 
+
+select {
+    width: 200px;
+    margin: 10px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: ghostwhite;
+} 
+
+#red{
+    color: red;
+    font-family: courier;
+    font-size:10pt;
+}
+
+
+
+#remain{
+    color: red;
+    font-family: courier;
+}
+

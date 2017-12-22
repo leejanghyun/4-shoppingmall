@@ -1,0 +1,14 @@
+<?php
+	$dbServer='localhost';
+	$dbUser='root';
+	$dbPass="";
+    $database="shoppingmall";
+ 	$person_tbl="person";
+    $buy_tbl="buy";
+    $buyhistory_tbl="buyhistory";
+    $clothes_tbl="clothes";
+    $item_tbl="items";
+    $clothesinfo_tbl="clothesinformation";
+    $comment_tbl="comment";
+    $question_tbl="question";
+?>

@@ -1,0 +1,1063 @@
+.displaynone {
+   display: none !important;
+}
+
+.ec-base-label {
+   margin-right: 5px; display: inline-block;
+}
+.ec-base-label img {
+   vertical-align: middle;
+}
+.ec-solution-box {
+   padding: 20px; border: 5px solid rgb(232, 232, 232); border-image: none; color: rgb(64, 64, 64);
+}
+.ec-solution-box.gHalf {
+   padding: 20px 0px; position: relative;
+}
+.ec-solution-box.gHalf::before {
+   left: 50%; top: 0px; width: 1px; height: 100%; display: block; position: absolute; content: ""; background-color: rgb(230, 230, 230);
+}
+.ec-solution-box.typeBg {
+   background-color: rgb(251, 250, 250);
+}
+.ec-solution-box.typeThin {
+   border-width: 1px; border-color: rgb(215, 213, 213);
+}
+.ec-solution-box.typeThinBg {
+   border-width: 1px; border-color: rgb(215, 213, 213); background-color: rgb(251, 250, 250);
+}
+.ec-solution-box.typeThinBg > .agree {
+   background: rgb(255, 255, 255); padding: 20px; border: 1px solid rgb(230, 230, 230); border-image: none;
+}
+.ec-solution-box.typeThinBg > .agree p {
+   padding: 0px 0px 17px;
+}
+.ec-solution-box.typeMember {
+   padding: 0px;
+}
+.ec-solution-box.typeMember .information {
+   padding: 10px 0px; width: 100%; display: table; table-layout: fixed; box-sizing: border-box;
+}
+.ec-solution-box.typeMember .information > .title {
+   padding: 0px 15px; width: 70px; text-align: center; vertical-align: middle; display: table-cell;
+}
+.ec-solution-box.typeMember .information > .thumbnail {
+   padding: 0px 15px; width: 70px; text-align: center; vertical-align: middle; display: table-cell;
+}
+.ec-solution-box.typeMember .information > .title {
+   vertical-align: middle;
+}
+.ec-solution-box.typeMember .information > .thumbnail img {
+   max-width: 70px;
+}
+.ec-solution-box.typeMember .information .description {
+   padding: 0px 10px; width: auto; line-height: 1.5em; vertical-align: middle; border-left-color: rgb(232, 232, 232); border-left-width: 1px; border-left-style: solid; display: table-cell;
+}
+.ec-solution-box.typeMember.gMessage {
+   border-width: 1px; border-color: rgb(215, 213, 213);
+}
+.ec-solution-box .message {
+   background: url("//img.echosting.cafe24.com/skin/base/common/ico_info.gif") no-repeat 10px rgb(251, 251, 251); padding: 10px 0px 10px 35px; border-bottom-color: rgb(232, 231, 231); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.ec-solution-box.typeProduct {
+   padding: 15px 0px; width: 100%; display: table; table-layout: fixed; box-sizing: border-box;
+}
+.ec-solution-box.typeProduct .thumbnail {
+   padding: 0px 20px; vertical-align: middle; display: table-cell;
+}
+.ec-solution-box.typeProduct .information {
+   padding: 0px 20px; vertical-align: middle; display: table-cell;
+}
+.ec-solution-box.typeProduct .thumbnail {
+   width: 100px;
+}
+.ec-solution-box.typeProduct .thumbnail img {
+   border: 1px solid rgb(215, 213, 213); border-image: none; max-width: 90px;
+}
+.ec-solution-box.typeProduct .information {
+   padding-left: 0px;
+}
+.ec-solution-button {
+   padding: 10px 0px; text-align: center;
+}
+.ec-solution-button.justify {
+   position: relative;
+}
+.ec-solution-button::after {
+   clear: both; display: block; content: "";
+}
+.ec-solution-button .gLeft {
+   text-align: left; float: left;
+}
+.ec-solution-button .gRight {
+   text-align: right; float: right;
+}
+.ec-solution-button.justify .gLeft {
+   left: 0px; position: absolute;
+}
+.ec-solution-button.justify .gRight {
+   right: 0px; position: absolute;
+}
+.ec-solution-button .text {
+   margin: 0px 6px 0px 10px; color: rgb(53, 53, 53); line-height: 24px;
+}
+.ec-solution-button.typeBorder {
+   padding: 10px 20px; border: 1px solid rgb(215, 213, 213); border-image: none; margin-top: -1px;
+}
+.ec-solution-button.typeBG {
+   background: rgb(251, 250, 250); padding: 10px 20px; border: 1px solid rgb(215, 213, 213); border-image: none;
+}
+.ec-solution-layer li {
+   list-style: none;
+}
+.ec-solution-layer table {
+   border: 0px currentColor; border-image: none; width: 100%; border-collapse: collapse; border-spacing: 0;
+}
+.ec-solution-layer caption {
+   display: none;
+}
+.ec-solution-layer h1 {
+   margin: 0px;
+}
+.ec-solution-layer h3 {
+   margin: 0px;
+}
+.ec-solution-layer {
+   background: rgb(255, 255, 255); border: 1px solid rgb(117, 117, 117); border-image: none; position: absolute; z-index: 100;
+}
+.ec-solution-layer .header {
+   background: rgb(73, 81, 100); padding: 7px 35px 7px 19px; color: rgb(255, 255, 255);
+}
+.ec-solution-layer .header > h1 {
+   line-height: 1.5; font-size: 14px;
+}
+.ec-solution-layer .header > h3 {
+   line-height: 1.5; font-size: 14px;
+}
+.ec-solution-layer .content {
+   padding: 20px; font-size: 12px;
+}
+.ec-solution-layer div.ec-solution-help {
+   margin-top: 0px;
+}
+.ec-solution-layer .ec-solution-button {
+   background: rgb(251, 250, 250); padding: 9px; text-align: center; border-top-color: rgb(215, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.ec-solution-layer .close {
+   padding: 11px 20px; top: 0px; right: 0px; position: absolute; cursor: pointer;
+}
+#popup .ec-solution-layer {
+   border: 0px currentColor; border-image: none; position: relative;
+}
+#popup .ec-solution-layer .header {
+   padding: 12px 35px 12px 19px;
+}
+#popup .ec-solution-layer .close {
+   top: 5px;
+}
+.ec-solution-layer .content > .ec-solution-table table:first-child {
+   margin-top: 0px;
+}
+.ec-solution-layer .ec-solution-table table {
+   line-height: 1.4;
+}
+.ec-solution-layer .ec-solution-table thead th {
+   padding: 9px 0px 8px;
+}
+.ec-solution-layer .ec-solution-table tbody th {
+   padding: 9px 0px 8px 10px;
+}
+.ec-solution-layer .ec-solution-table td {
+   padding: 9px 10px 8px;
+}
+.ec-solution-layer .ec-solution-table.typeWrite td {
+   padding: 5px 10px 4px;
+}
+.ec-solution-layer .ec-solution-table.typeList tfoot td {
+   padding: 10px 10px 12px;
+}
+.ec-solution-layer .ec-solution-table.typeBorder tfoot td {
+   padding: 10px 10px 12px;
+}
+.ec-solution-table table {
+   border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(215, 213, 213) rgb(215, 213, 213); margin: 10px 0px 0px; border-image: none; color: rgb(255, 255, 255); line-height: 1.5; position: relative;
+}
+.ec-solution-table.gLayoutFixed table {
+   table-layout: fixed;
+}
+.ec-solution-table.gLayoutFixed .gLayoutAuto table {
+   table-layout: auto;
+}
+.ec-solution-table table::before {
+   background: rgb(215, 213, 213); left: 0px; top: 1px; width: 100%; height: 1px; display: block; position: absolute; content: "";
+}
+.ec-solution-table thead th {
+   background: rgb(251, 250, 250); padding: 11px 0px 10px; color: rgb(53, 53, 53); font-weight: normal; vertical-align: middle; border-bottom-color: rgb(223, 223, 223); border-left-color: rgb(223, 223, 223); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.ec-solution-table tbody th {
+   border-width: 1px 1px 0px; border-style: solid; border-color: rgb(223, 223, 223); padding: 11px 0px 10px 18px; border-image: none; text-align: left; color: rgb(53, 53, 53); font-weight: normal; background-color: rgb(251, 250, 250);
+}
+.ec-solution-table th:first-child {
+   border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.ec-solution-table td {
+   padding: 11px 10px 10px; color: rgb(53, 53, 53); vertical-align: middle; border-top-color: rgb(223, 223, 223); border-top-width: 1px; border-top-style: solid;
+}
+.ec-solution-table td.clear {
+   padding: 0px !important; border: 0px currentColor !important; border-image: none !important;
+}
+.ec-solution-table.typeWrite td {
+   padding: 8px 10px 7px;
+}
+.ec-solution-table.typeList table {
+   border-top-color: rgb(215, 213, 213);
+}
+.ec-solution-table.typeList table::before {
+   display: none;
+}
+.ec-solution-table.typeList td {
+   padding: 8px 10px 7px;
+}
+.ec-solution-table.typeList tfoot td {
+   background: rgb(251, 250, 250); padding: 15px 10px 17px;
+}
+.ec-solution-table .message {
+   padding: 50px 0px; border: 1px solid rgb(215, 213, 213); border-image: none; text-align: center; color: rgb(117, 117, 117); font-weight: bold;
+}
+.ec-solution-table table + .message {
+   margin: -1px 0px 0px;
+}
+.ec-solution-table table td.message {
+   padding: 50px 0px;
+}
+.ec-solution-table .scroll .message {
+   border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeList .head td {
+   background: rgb(251, 250, 250); padding: 11px 0px 10px; text-align: center; color: rgb(53, 53, 53); vertical-align: middle; border-bottom-color: rgb(223, 223, 223); border-left-color: rgb(223, 223, 223); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+
+
+.ec-solution-table thead.blind {
+   display: none;
+}
+.ec-solution-table thead.blind th {
+   display: none;
+}
+.ec-solution-table thead.blind + tbody tr:first-child th {
+   border-top-width: 0px;
+}
+.ec-solution-table thead.blind + tbody tr:first-child td {
+   border-top-width: 0px;
+}
+.ec-solution-table.typeList.gLine table {
+   border-width: 0px 0px 1px;
+}
+.ec-solution-table.typeClear table::before {
+   display: none;
+}
+.ec-solution-table.typeClear table {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeClear th {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeClear td {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeClear th {
+   font-weight: bold;
+}
+.ec-solution-table.gBorder td {
+   border-left-color: rgb(223, 223, 223); border-left-width: 1px; border-left-style: solid;
+}
+.ec-solution-table.gBorder td:first-child {
+   border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.ec-solution-table .left {
+   text-align: left;
+}
+.ec-solution-table .center {
+   text-align: center;
+}
+.ec-solution-table .right {
+   text-align: right;
+}
+.ec-solution-table.typeList .center td {
+   padding-right: 0px; padding-left: 0px;
+}
+.ec-solution-table.typeList td.center {
+   padding-right: 0px; padding-left: 0px;
+}
+.ec-solution-table.typeList .center td.left {
+   padding-left: 10px;
+}
+.ec-solution-table.typeList .center td.right {
+   padding-right: 10px;
+}
+.ec-solution-table .top th {
+   vertical-align: top;
+}
+.ec-solution-table th.top {
+   vertical-align: top;
+}
+.ec-solution-table .top td {
+   vertical-align: top;
+}
+.ec-solution-table td.top {
+   vertical-align: top;
+}
+.ec-solution-table .middle th {
+   vertical-align: middle;
+}
+.ec-solution-table th.middle {
+   vertical-align: middle;
+}
+.ec-solution-table .middle td {
+   vertical-align: middle;
+}
+.ec-solution-table td.middle {
+   vertical-align: middle;
+}
+.ec-solution-table img {
+   vertical-align: middle;
+}
+@media print
+{
+.ec-solution-table table::before {
+   display: none;
+}
+}
+.xans-order-form {
+   
+}
+.xans-order-form .orderStep {
+   margin: 0px 0px 30px; text-align: center;
+}
+.xans-order-form .orderList {
+  
+   margin: 50px 0px 20px;
+}
+.xans-order-form .orderList h3 {
+   margin: 0px 0px 10px; font-size: 16px;
+}
+.xans-order-form .orderList h3 span {
+   padding: 0px 0px 0px 9px; color: rgb(52, 167, 179); font-size: 11px; font-weight: normal;
+}
+.xans-order-form .btnArea {
+   margin: 20px 0px 50px; text-align: right; 
+}
+.xans-order-form .btnArea.miniType {
+   margin: 10px 0px 20px; padding: 0px 15px;
+}
+.xans-order-form .btnArea img {
+   padding: 0px 1px 0px 0px; float: left; cursor: pointer;
+}
+.xans-order-form .btnArea p.btnLeft {
+   float: left;
+}
+.xans-order-form .btnArea p.btnRight {
+   float: right;
+}
+.xans-order-form .btnArea p.btnRight img {
+   padding: 0px 0px 0px 1px; float: left;
+}
+.xans-order-form table.boardProduct {
+   
+}
+.xans-order-form table.boardProduct th {
+   padding: 9px 0px; text-align: center; font-size: 11px; font-weight: normal; border-top-color: rgb(221, 221, 221); border-bottom-color: rgb(221, 221, 221); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.xans-order-form table.boardProduct th.delivery {
+   color: rgb(51, 51, 51);
+}
+.xans-order-form table.boardProduct td {
+   background: rgb(253, 251, 250); padding: 10px 0px; text-align: center; font-size: 11px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.xans-order-form table.boardProduct .chk {
+   width: 30px;
+}
+.xans-order-form table.boardProduct .thumb {
+   width: 134px; 
+}
+.xans-order-form table.boardProduct .thumb a {
+   color: rgb(0, 0, 0);
+}
+.xans-order-form table.boardProduct .thumb a:hover {
+   color: rgb(0, 0, 0);
+}
+.xans-order-form table.boardProduct .thumb img {
+   width: 46px;
+}
+.xans-order-form table.boardProduct .thumb span {
+   padding: 0px 0px 0px 8px; width: 80px; text-align: left; float: left;
+}
+.xans-order-form table.boardProduct .prduct {
+   
+}
+.xans-order-form table.boardProduct .sell {
+   width: 80px;
+}
+.xans-order-form table.boardProduct .mileage {
+   width: 63px;
+}
+.xans-order-form table.boardProduct .opt {
+   width: 280px;
+}
+.xans-order-form table.boardProduct .quantity {
+   width: 80px;
+}
+.xans-order-form table.boardProduct .quantity img {
+   margin: 0px 0px 0px 2px; cursor: pointer;
+}
+.xans-order-form table.boardProduct .delivery {
+   width: 75px; color: rgb(136, 138, 134);
+}
+.xans-order-form table.boardProduct .charge {
+   width: 58px;
+}
+.xans-order-form table.boardProduct .total {
+   width: 110px;
+}
+.xans-order-form table.boardProduct .state {
+   width: 75px;
+}
+.xans-order-form table.boardProduct .delivery1 {
+   width: 75px;
+}
+.xans-order-form table.boardProduct .delivery2 {
+   width: 75px;
+}
+.xans-order-form table.boardProduct td.chk {
+   
+}
+.xans-order-form table.boardProduct td.thumb {
+   
+}
+.xans-order-form table.boardProduct td.prduct {
+   text-align: left;
+}
+.xans-order-form table.boardProduct td.prduct strong {
+   padding: 5px 0px 0px; color: rgb(136, 138, 134);  font-weight: normal; display: block;
+}
+.xans-order-form table.boardProduct td.prduct .btnPrdWrite a {
+   background: rgb(176, 176, 176); padding: 1px; color: rgb(255, 255, 255); float: left;
+}
+.xans-order-form table.boardProduct td.prduct ul {
+   padding: 5px 0px 0px; color: rgb(136, 138, 134);
+}
+.xans-order-form table.boardProduct td.sell {
+   
+}
+.xans-order-form table.boardProduct td.mileage {
+   
+}
+.xans-order-form table.boardProduct td.opt {
+   
+}
+.xans-order-form table.boardProduct td.quantity input {
+   border: 1px solid rgb(188, 188, 188); border-image: none; width: 25px; text-align: center;
+}
+.xans-order-form table.boardProduct td.delivery {
+   
+}
+.xans-order-form table.boardProduct td.charge {
+   
+}
+.xans-order-form table.boardProduct td.total {
+   color: rgb(52, 167, 179); font-weight: bold;
+}
+.xans-order-form table.boardProduct tfoot td {
+   background: none; padding: 7px 7px 20px; text-align: right; color: rgb(0, 0, 0);
+}
+.xans-order-form table.boardProduct tfoot td .total {
+   color: rgb(248, 148, 29);
+}
+.xans-order-form .ordDetail1 {
+   background: none;
+}
+.xans-order-form .ordDetail1 tfoot td {
+   border-top-color: rgb(221, 221, 221); border-top-width: 2px; border-top-style: solid;
+}
+.xans-order-form .ordDetail1 .thumb {
+   width: 60px; text-align: center;
+}
+.xans-order-form .ordDetail1 .thumb img {
+   float: none;
+}
+.xans-order-form .ordDetail2 {
+   background: none;
+}
+.xans-order-form .ordDetail2 tbody td {
+   background: rgb(250, 252, 253); border-top-color: rgb(160, 189, 217); border-top-width: 1px; border-top-style: solid;
+}
+.xans-order-form .ordDetail2 tfoot td {
+   border-top-color: rgb(160, 189, 217); border-top-width: 2px; border-top-style: solid;
+}
+.xans-order-form #totalOrder {
+   background: rgb(244, 244, 244); margin: 30px 0px 10px; padding: 22px 17px 22px 39px; border: 1px solid rgb(51, 51, 51); border-image: none; color: rgb(102, 102, 102); 
+}
+.xans-order-form #totalOrder h4 {
+   margin: 0px; float: left;
+}
+.xans-order-form #totalOrder h4 strong {
+   padding: 0px 0px 10px; color: rgb(51, 51, 51); font-size: 1.5em; display: block;
+}
+.xans-order-form #totalOrder h4 span {
+   font-weight: normal;
+}
+.xans-order-form #totalOrder ul {
+   width: 344px; float: right;
+}
+.xans-order-form #totalOrder li {
+   padding: 4px 0px;  font-size: 0.9em;
+}
+.xans-order-form #totalOrder li strong {
+   width: 150px; text-align: right; font-weight: normal; float: left;
+}
+.xans-order-form #totalOrder li span {
+   padding: 0px 0px 0px 20px; width: 174px; text-align: right; font-family: "µ¸¿ò",Dotum,AppleGothic,sans-serif; font-weight: bold; float: right;
+}
+.xans-order-form #totalOrder li em {
+   font-style: normal;
+}
+.xans-order-form #totalOrder li.total strong {
+   padding: 4px 0px 0px;
+}
+.xans-order-form #totalOrder li.total span {
+   color: rgb(250, 126, 4); font-size: 2em;
+}
+.xans-order-form #totalOrder p.ship {
+   text-align: right; clear: both;
+}
+.xans-order-form .orderArea {
+   margin: 50px 0px 20px; -ms-zoom: 1;
+}
+.xans-order-form .orderArea h3 {
+   margin: 0px 0px 10px; float: left;
+}
+.xans-order-form .orderArea table {
+   clear: both;
+}
+.xans-order-form .orderArea .chkAdd {
+   margin: 4px 0px 0px; color: rgb(52, 167, 179); font-size: 0.9em; float: right;
+}
+.xans-order-form .orderArea .chkAdd label {
+   color: rgb(32, 32, 32);
+}
+.xans-order-form .orderArea .chkAdd img {
+   vertical-align: middle;
+}
+.xans-order-form div.boardView {
+   clear: both; margin-top: 18px; border-top-color: rgb(51, 51, 51); border-bottom-color: rgb(51, 51, 51); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.xans-order-form table.boardView {
+   background: rgb(246, 247, 249); font-size: 0.9em;
+}
+.xans-order-form table.boardView input {
+   background: rgb(255, 255, 255); padding: 1px 0px 2px 4px; border: 1px solid rgb(188, 188, 188); border-image: none; color: rgb(32, 32, 32);
+}
+.xans-order-form table.boardView textarea {
+   background: rgb(255, 255, 255); padding: 1px 0px 2px 4px; border: 1px solid rgb(188, 188, 188); border-image: none; color: rgb(32, 32, 32);
+}
+.xans-order-form table.boardView thead th {
+   border-bottom-color: rgb(51, 51, 51); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.xans-order-form table.boardView thead td {
+   border-bottom-color: rgb(51, 51, 51); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.xans-order-form table.boardView tfoot th {
+   border-top-color: rgb(51, 51, 51); border-top-width: 3px; border-top-style: solid;
+}
+.xans-order-form table.boardView tfoot td {
+   border-top-color: rgb(51, 51, 51); border-top-width: 3px; border-top-style: solid;
+}
+.xans-order-form table.boardView .first {
+   padding-top: 20px; border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.xans-order-form table.boardView th {
+   padding: 5px 0px 5px 20px; width: 120px; text-align: left; color: rgb(134, 134, 134); line-height: 2em; border-bottom-color: rgb(230, 230, 230); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xans-order-form table.boardView td {
+   padding: 5px 0px; width: 616px; color: rgb(139, 139, 140); line-height: 2em; border-bottom-color: rgb(230, 230, 230); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xans-order-form table.boardView td.write {
+   width: 100%;
+}
+.xans-order-form table.boardView td img {
+   vertical-align: middle;
+}
+.xans-order-form table.ordAdd .price {
+   color: rgb(52, 167, 179); font-size: 16px;
+}
+.xans-order-form table.ordAdd .mileage {
+   color: rgb(0, 174, 239); font-weight: normal;
+}
+.xans-order-form table.ordAdd .colType {
+   padding-left: 0px;
+}
+.xans-order-form table.ordAdd input.btn {
+   padding: 1px 3px;
+}
+.xans-order-form table.ordAdd #total_price {
+   background: rgb(246, 247, 249); margin: 0px 4px 0px 0px;
+}
+.xans-order-form table.ordAdd #eguarantee_personal #eguarantee_ssn1 {
+   width: 80px;
+}
+.xans-order-form table.ordAdd #eguarantee_personal #eguarantee_ssn2 {
+   width: 80px;
+}
+.basketInfo {
+   margin: 30px 0px; color: rgb(139, 139, 140); font-size: 0.9em;
+}
+.basketInfo h3 {
+   padding: 0px 0px 10px; color: rgb(52, 167, 179); line-height: 18px; font-weight: normal;
+}
+.basketInfo li {
+   background: url("http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif") no-repeat 0px 2px; padding: 0px 0px 0px 10px; line-height: 18px;
+}
+.basketInfo li > strong {
+   padding: 0px 0px 5px; display: block;
+}
+.basketInfo li ul {
+   padding: 0px 0px 20px;
+}
+.basketInfo li li {
+   background: none; padding: 0px;
+}
+.basketInfo a {
+   color: rgb(139, 139, 140);
+}
+.basketInfo a:hover {
+   color: rgb(139, 139, 140);
+}
+.basketInfo.mileageType {
+   margin: 50px 0px 0px;
+}
+.basketInfo.couponType em {
+   color: rgb(52, 167, 179); text-decoration: underline;
+}
+#bankBenefit {
+   background: rgb(247, 247, 247); margin: 30px 0px; padding: 15px; border: 1px solid rgb(221, 221, 221); border-image: none; text-align: center; color: rgb(102, 102, 102);  -ms-zoom: 1;
+}
+#bankBenefit p {
+   padding: 0px;
+}
+#bankBenefit p.myInfo {
+   line-height: 20px;
+}
+#bankBenefit p strong {
+   color: rgb(140, 145, 162);
+}
+#bankBenefit p span.typeBlock {
+   display: block;
+}
+#bankBenefit p span.typeBlock {
+   display: block;
+}
+.xans-order-form table.boardView input#hope_shipping_fast0 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#nm_agreement0 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#nm_agreement1 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#subscription_agreement0 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#subscription_agreement1 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#addr_paymethod0 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#addr_paymethod1 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#addr_paymethod2 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#addr_paymethod3 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#addr_paymethod4 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#addr_paymethod5 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#addr_paymethod6 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+.xans-order-form table.boardView input#addr_paymethod7 {
+   background: none; border: 0px currentColor; border-image: none;
+}
+#subscription_terms {
+   width: 590px; height: 200px;
+}
+#divNvPointInfo {
+   background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(91, 151, 97); border-image: none; width: 245px; color: rgb(119, 119, 119); line-height: 14px; font-size: 11px; display: none; position: absolute; z-index: 99;
+}
+#divNvPointInfo a {
+   padding: 5px 0px 0px; color: rgb(30, 194, 40); display: block;
+}
+#divNvPointInfo a img {
+   vertical-align: middle;
+}
+#imgNaverMileageHelp {
+   cursor: pointer;
+}
+html {
+   margin: 0px; padding: 0px;
+}
+body {
+   margin: 0px; padding: 0px;
+}
+div {
+   margin: 0px; padding: 0px;
+}
+dl {
+   margin: 0px; padding: 0px;
+}
+dt {
+   margin: 0px; padding: 0px;
+}
+dd {
+   margin: 0px; padding: 0px;
+}
+ul {
+   margin: 0px; padding: 0px;
+}
+ol {
+   margin: 0px; padding: 0px;
+}
+li {
+   margin: 0px; padding: 0px;
+}
+h1 {
+   margin: 0px; padding: 0px;
+}
+h2 {
+   margin: 0px; padding: 0px;
+}
+h3 {
+   margin: 0px; padding: 0px;
+}
+h4 {
+   margin: 0px; padding: 0px;
+}
+h5 {
+   margin: 0px; padding: 0px;
+}
+h6 {
+   margin: 0px; padding: 0px;
+}
+pre {
+   margin: 0px; padding: 0px;
+}
+code {
+   margin: 0px; padding: 0px;
+}
+form {
+   margin: 0px; padding: 0px;
+}
+fieldset {
+   margin: 0px; padding: 0px;
+}
+legend {
+   margin: 0px; padding: 0px;
+}
+input {
+   margin: 0px; padding: 0px;
+}
+textarea {
+   margin: 0px; padding: 0px;
+}
+p {
+   margin: 0px; padding: 0px;
+}
+blockquote {
+   margin: 0px; padding: 0px;
+}
+th {
+   margin: 0px; padding: 0px;
+}
+td {
+   margin: 0px; padding: 0px;
+}
+img {
+   margin: 0px; padding: 0px;
+}
+html {
+   width: 100%; height: 100%;
+}
+body {
+   background: rgb(255, 255, 255); font: 11px/normal Arial, "µ¸¿ò", Dotum, AppleGothic, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+code {
+   background: rgb(255, 255, 255); font: 11px/normal Arial, "µ¸¿ò", Dotum, AppleGothic, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+li {
+   list-style: none;
+}
+img {
+   border: currentColor; border-image: none; vertical-align: top;
+}
+fieldset {
+   border: currentColor; border-image: none; vertical-align: top;
+}
+input {
+   color: rgb(118, 118, 118); font-size: 100%; vertical-align: middle;
+}
+select {
+   color: rgb(118, 118, 118); font-size: 100%; vertical-align: middle;
+}
+textarea {
+   color: rgb(118, 118, 118); font-size: 100%; vertical-align: middle;
+}
+hr.layout {
+   display: none;
+}
+a {
+   color: rgb(0, 0, 0); text-decoration: none;
+}
+a:link {
+   color: rgb(0, 0, 0); text-decoration: none;
+}
+a:visited {
+   color: rgb(0, 0, 0); text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+}
+a:active {
+   text-decoration: none;
+}
+table {
+   border: 0px currentColor; border-image: none; width: 100%; border-collapse: collapse; border-spacing: 0;
+}
+th {
+   border: 0px currentColor; border-image: none; vertical-align: top;
+}
+td {
+   border: 0px currentColor; border-image: none; vertical-align: top;
+}
+legend {
+   width: 0px; height: 0px; text-indent: -9999em; display: block;
+}
+caption {
+   left: -1000px; top: -1000px; width: 0px; height: 0px; display: none; visibility: hidden; position: absolute;
+}
+button {
+   margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; overflow: visible; cursor: pointer;
+}
+.objHidden {
+   left: -1000px; top: -1000px; width: 0px; height: 0px; visibility: hidden; position: absolute;
+}
+table tr.radioType input {
+   background: none !important; margin: 0px 3px 0px 0px !important; border: currentColor !important; border-image: none !important; width: auto !important; height: auto !important; vertical-align: middle !important;
+}
+span.noBorder input {
+   background: none !important; margin: 0px 3px 0px 0px !important; border: currentColor !important; border-image: none !important; width: auto !important; height: auto !important; vertical-align: middle !important;
+}
+#content_CONTAINER td {
+   width: auto !important;
+}
+table.nneditor-table {
+   width: auto !important;
+}
+#progressPaybarBackground {
+   left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 99;
+}
+#progressPaybarView {
+   left: 20px; top: 160px; width: 471px; font-size: 12px; position: absolute; z-index: 100;
+}
+#progressPaybarView .box {
+   background: url("http://img.cafe24.com/images/ec_hosting/popup/layer_guide/bg_layer_box1.gif") no-repeat 0px 0px; height: 180px;
+}
+#progressPaybarView .box .graph {
+   padding: 15px 0px 0px; text-align: center;
+}
+#progressPaybarView .box .graph span {
+   margin: 20px 0px; text-align: center; display: block;
+}
+#progressPaybarView .box .txt {
+   padding: 15px 0px 0px; text-align: center; color: rgb(85, 85, 85);
+}
+div.layerProgress {
+   opacity: 0.4; background-color: rgb(153, 153, 153); -moz-opacity: 0.4;
+}
+#accNav {
+   left: 0px; top: 0px; width: 100%; height: 0px; position: absolute; z-index: 100;
+}
+#accNav p {
+   height: 0px;
+}
+#accNav ul {
+   height: 0px;
+}
+#accNav ul li {
+   height: 0px;
+}
+#accNav p a {
+   left: 0px; top: 0px; width: 1px; height: 1px; text-align: center; color: rgb(0, 0, 0); margin-bottom: -1px; margin-left: -1px; display: block; white-space: nowrap; position: absolute;
+}
+#accNav p a:focus {
+   background: rgb(196, 18, 47); padding: 10px 0px; width: 100%; height: auto; color: rgb(255, 255, 255); z-index: 100;
+}
+#accNav p a:hover {
+   background: rgb(196, 18, 47); padding: 10px 0px; width: 100%; height: auto; color: rgb(255, 255, 255); z-index: 100;
+}
+#accNav p a:active {
+   background: rgb(196, 18, 47); padding: 10px 0px; width: 100%; height: auto; color: rgb(255, 255, 255); z-index: 100;
+}
+.clearfix {
+   -ms-zoom: 1;
+}
+.clearfix::after {
+   height: 0px;clear: both; display: block; visibility: hidden; content: "";
+}
+.displaynone {
+   display: none;
+}
+* {
+   margin: 0px; padding: 0px;
+}
+
+#pay_body{
+    overflow-y:scroll;
+}
+hr.layout {
+   display: none;
+}
+#sider {
+   float: left;
+}
+#sider::after {
+   clear: both; display: block; content: "";
+}
+
+#expand {
+   text-align: left; float: left;
+}
+#expand::after {
+   clear: both; display: block; content: "";
+}
+#quickL {
+   position: absolute;
+}
+#quickR {
+   position: absolute;
+}
+#footer {
+   margin: 0px auto 40px; text-align: left;
+}
+#footer::after {
+   clear: both; display: block; content: "";
+}
+
+
+#sider {
+   width: 260px; height: 100%; display: none;
+}
+
+#footer {
+   width: 1348px; text-align: center; _width: 1688px;
+}
+#footer .inner_wrap {
+   margin: 0px auto; width: 1348px; height: 100%;
+}
+#header h1.logo {
+   margin: 38px auto 28px; text-align: center;
+}
+#header .inner_wrap .gnb {
+   height: 30px;
+}
+#header .inner_wrap .gnb::after {
+   clear: both; display: block; content: "";
+}
+#header .inner_wrap .gnb ul.navi {
+   height: 30px; float: left;
+}
+#header .inner_wrap .gnb ul.navi li {
+   padding: 10px 0px 0px 17px; float: left; display: inline;
+}
+#header .inner_wrap .gnb ul.navi li:first-child {
+   padding-left: 0px;
+}
+#header .inner_wrap .gnb li a {
+   display: block;
+}
+#header .inner_wrap .gnb .search {
+   margin-right: 1px; float: right;
+}
+.headerFix {
+   background: rgb(255, 255, 255); position: fixed; z-index: 20000;
+}
+.headerFix .top {
+   position: relative;
+}
+.headerFix .top ul {
+   left: 0px; top: 0px; font-size: 0px; position: absolute;
+}
+.headerFix .top ul li {
+   margin: 0px 3px 0px 0px; display: inline-block;
+}
+.headerFix .top h1 {
+   
+}
+.headerFix_detail {
+   background: rgb(255, 255, 255); z-index: 20000;
+}
+.headerFix_detail .top {
+   position: relative;
+}
+.headerFix_detail .top ul {
+   left: 0px; top: 0px; font-size: 0px; position: absolute;
+}
+.headerFix_detail .top ul li {
+   margin: 0px 3px 0px 0px; display: inline-block;
+}
+.headerFix_detail .top h1 {
+   
+}
+#menu {
+   width: 1348px; height: 30px; padding-top: 0px; padding-bottom: 10px; margin-top: 0px; position: relative; z-index: 20000;
+}
+#menu ul {
+   list-style: none; margin: 0px; padding: 0px; left: -9999px; top: 0px; position: absolute;
+}
+#menu li {
+   list-style: none; margin: 0px; padding: 0px; width: 322px;
+}
+#menu ul.level1 {
+   left: 0px; top: 0px; position: absolute;
+}
+#menu ul.level1 > li {
+   margin: 0px; padding: 0px 0px 0px 152px; height: 35px; float: left; display: inline;
+}
+#menu ul.level1 > li:first-child {
+   padding-left: 0px;
+}
+#menu a {
+   text-decoration: none; display: block;
+}
+#menu ul li:hover > ul {
+   background: rgb(0, 0, 0); margin: 0px; padding: 20px 0px; width: 322px; visibility: visible;
+}
+#menu ul .level2 > li {
+   width: 322px;
+}
+#menu ul .level3 > li {
+   width: 322px;
+}
+#menu ul .level2 > li a {
+   margin: 0px 15px 0px 9px; width: 298px; height: 20px; text-align: left; line-height: 20px; border-top-color: rgb(85, 85, 85); border-top-width: 1px; border-top-style: dotted; display: block;
+}
+#menu ul .level3 > li a {
+   margin: 0px 15px 0px 9px; width: 298px; height: 20px; text-align: left; line-height: 20px; border-top-color: rgb(85, 85, 85); border-top-width: 1px; border-top-style: dotted; display: block;
+}
+#menu ul li:

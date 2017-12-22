@@ -1,0 +1,44 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+li{list-style-type: none;}
+.clearFix {*zoom:1;}
+.clearFix:after {display:block; clear:both; content:'';}
+
+#footer .fnb {width:100%; max-width:1350px;}
+
+.header_wrap {width:100%; background: #fff;}
+.header_wrap .max-small {width: auto; height: auto; max-width: 300px;max-height: 300px;}
+.header_wrap .util_top_wrap {width:100%; position:fixed; top:0; z-index:15; background: #fff;}
+.header_wrap .util_top {max-width:1310px; width: 100%; margin:0 auto;}
+
+.header_wrap .util_top .left_section {padding-top:10px; margin-right: -777px;}
+.header_wrap .util_top .left_section a {position:relative; padding-right:30px; font-size:25px; color:#484c52; letter-spacing:-1px; font-family: 'Nanum Pen Script', cursive;}
+.header_wrap .util_top .left_section span {position:relative; left:-14px; z-index:15; font-size:20px; font-family: 'Nanum Pen Script', cursive;}
+
+.header_wrap h1 {padding-top:127px; padding-bottom:55px; text-align:center; }
+.header_wrap h1.fix_logo {position:fixed; top:-43px; left:50%; z-index:20; padding:0; margin-left:-95px; width:190px;}
+
+.header_wrap .cate_wrap {width:100%; padding-top:22px; border-bottom:1px solid #cccccc; margin-bottom:11px; position:relative;  z-index:15;}
+.header_wrap .cate_wrap .inner_area {max-width:1310px; margin:0 auto}
+.header_wrap .cate_wrap .inner_area > ul {text-align:left;}
+.header_wrap .cate_wrap .inner_area > ul > li {display:inline-block; position:relative; padding: 0 3%;}
+.header_wrap .cate_wrap .inner_area > ul > li > a {display:block; width:100%; font-size:25px; color:#4c4c4c; line-height:39px;font-family: 'Nanum Pen Script', cursive; white-space: nowrap;}
+.header_wrap .cate_wrap .inner_area > ul > li > a:hover {text-decoration: none;}
+.header_wrap .cate_wrap .inner_area > ul > li .dep2 {display:none; position:absolute; top: 39px; left: 50%; width: 154px; padding: 15px 0px; border: 1px solid #ccc; background: #fff; z-index: 10; margin-left: -77px; }
+
+.header_wrap .cate_wrap .inner_area > ul > li .dep2 > ul > li {display:inline-block; position:relative; padding: 0 3.8%;}
+.header_wrap .cate_wrap .inner_area > ul > li .dep2 a {font-size:30px; font-family: 'Nanum Pen Script', cursive; text-decoration:blink; text-align:left; line-height:23px; color:#7f7f7f;}
+
+.header_wrap.fix .cate_wrap {position:fixed; top:28px; z-index:10;background: #fff; }
+
+#container,#contents {width:100%!important;padding-right:0; min-width:1310px;}
+
+.main  {width:100%;overflow:hidden; }
+.main .main_roll_banner {width:100%; overflow:hidden; position:relative; height:500px; margin-bottom:100px;}
+.main .main_roll_banner .banner_wrap {position:absolute; top:0; left:50%; width:1920px!important; margin-left:-960px;height:500px!important; }
+.main .main_roll_banner .pager {position:absolute; bottom:17px; left:0; width:100%; text-align:center; z-index:8; }
+.main .main_roll_banner .pager a {display:inline-block; width:14px; height:14px; margin:0 3px; background: url(/web/upload/wib/img/banner_btn_off.png) no-repeat 0 0; text-indent:999999px; font-size:0px;}
+.main .main_roll_banner .pager a.activeSlide {background: url(/web/upload/wib/img/banner_btn_on.png) no-repeat 0 0;}
+.main .main_roll_banner .btn_arrow {position:absolute; top:225px; z-index:9;}
+.main .main_roll_banner .btn_arrow.prev {left:30px;}
+.main .main_roll_banner .btn_arrow.next {right:30px;}
+

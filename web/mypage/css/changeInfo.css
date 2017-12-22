@@ -1,0 +1,31 @@
+#changeinfo{
+    position: absolute;
+    left: 400px;
+    width: 500px;
+    height: 500px;
+}
+.changeIndotbl{
+    vertical-align: center;
+    width: 100%;
+    border: 1px solid #444444;
+}
+.changeIndotbl td {
+    border: 1px solid #444444;
+}
+.changeIndotbl th {
+    border: 1px solid #444444;
+}
+.changeIndotbl tr {
+    background-color: #8f8f8f;;
+	background: #8f8f8f;;
+	color: #fff;
+}
+.changeIndotbl input{
+    position: absolute;
+    left:150px;
+}
+.changeIndotbl textarea {
+    position: absolute;
+    left:150px;
+    outline: none;
+}

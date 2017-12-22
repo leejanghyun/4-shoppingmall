@@ -1,0 +1,68 @@
+.clothes_tbl{
+    position: absolute;
+    width: 1000px;
+    left: 10px;
+    margin: 1em auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clothes_tbl thead a{
+    color: white;
+}
+.clothes_tbl a{
+    color: black;
+}
+.clothes_tbl th, .clothes_tbl td {
+    padding: 1px 1px;
+}
+.clothes_tbl thead th {
+    background: #4f81bd;
+    text-transform: lowercase;
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+}
+.clothes_tbl tr {
+    border-right: 1px solid #95b3d7;
+}
+.clothes_tbl tbody tr {
+    border-bottom: 1px solid #95b3d7;
+}
+.clothes_tbl tbody tr:nth-child(odd) {
+    background: #dbe5f0;
+}
+.clothes_tbl tbody th, .clothes_tbl tbody tr:nth-child(even) td {
+    border-right: 1px solid #95b3d7;
+}
+.clothes_tbl tfoot th {
+    background: #4f81bd;
+    text-align: left;
+    font-weight: normal;
+    font-size: 10px;
+    color: #fff;
+}
+.clothes_tbl tr *:nth-child(3), .clothes_tbl tr *:nth-child(4) {
+    text-align: right;
+}
+.container .row .col-lg-12 input[type=text] {
+    background-color: ghostwhite;
+    color: gray;
+    width: 50px;
+    margin: 10px;
+} 
+.clothes_top a{
+    color: grey;
+    font-family: courier;
+    font-size:10pt;
+}
+.clothes_select {
+    width: 200px;
+    margin: 10px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: ghostwhite;
+} 
+.clothes_red{
+    color: red;
+}

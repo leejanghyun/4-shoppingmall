@@ -1,0 +1,83 @@
+.manager_tbl{
+    position: absolute;
+    width: 1000px;
+    left: 200px;
+    margin: 1em auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.manager_tbl thead a{
+    color: white;
+}
+.manager_tbl a{
+    color: black;
+}
+.manager_tbl th, .manager_tbl td {
+    padding: 1px 1px;
+}
+.manager_tbl thead th {
+    background: #4f81bd;
+    text-transform: lowercase;
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+}
+.manager_tbl tr {
+    border-right: 1px solid #95b3d7;
+}
+.manager_tbl tbody tr {
+    border-bottom: 1px solid #95b3d7;
+}
+.manager_tbl tbody tr:nth-child(odd) {
+    background: #dbe5f0;
+}
+.manager_tbl tbody th, .manager_tbl tbody tr:nth-child(even) td {
+    border-right: 1px solid #95b3d7;
+}
+.manager_tbl tfoot th {
+    background: #4f81bd;
+    text-align: left;
+    font-weight: normal;
+    font-size: 10px;
+    color: #fff;
+}
+.manager_tbl tr *:nth-child(3), .manager_tbl tr *:nth-child(4) {
+    text-align: right;
+}
+.manager_top a{
+    color: grey;
+    font-family: courier;
+    font-size:10pt;
+}
+.manager_top p{
+    color: grey;
+    font-family: courier;
+    font-size:10pt;
+}
+.orderstate{
+    width: 90px;   
+}
+.personal_id{
+  position:absolute;
+  top: -9999px;
+  visibility:hidden;
+}
+.manager_question{
+    color:gray;
+    position: absolute;
+    width: 500px;
+    left: 500px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.manager_question textarea{
+    background:transparent top right ; 
+    height:110px;
+    padding-top:5px;
+    width:635px;        
+    overflow:hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+

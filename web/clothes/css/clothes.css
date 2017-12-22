@@ -1,0 +1,12 @@
+.goods_area {width:100%; font-size:30px; font-family: 'Nanum Pen Script'}
+.goods_area .goods_tit {width:100%; border-bottom:1px solid #ccc; color:#4c4c4c; font-size:12px; , sans-serif; text-align:center; line-height:38px; margin-bottom:38px;}
+ .goods_area .inner {width:1368px; margin:0 auto;}
+..goods_area .inner .prdList {display:block; text-align:left;}
+.goods_area .inner .prdList > li {display: inline-block; vertical-align: top;  width: 322px; margin: 0 7px 70px;  text-align: center;}
+.goods_area .inner .prdList > li .box .thumb {display:block; width:322px; height:322px; margin-bottom:11px;}
+ .goods_area .inner .prdList > li .box .status {padding-top:20px;}
+ .goods_area .inner .prdList > li .box .status .name {line-height:17px; height:auto; }
+.goods_area .inner .prdList > li .xans-product-listitem {position:relative; }
+ .goods_area .inner .prdList > li .xans-product-listitem li {text-align:center;line-height:17px;}
+ .goods_area .inner .prdList > li .xans-product-listitem li .color {display:block; position:absolute; top:-65px; left:0; width:100%; text-align:center;}
+ .goods_area .inner .prdList > li .xans-product-listitem li .color span {display:inline-block; width:8px; height:8px; margin: 0 2px; border: 1px solid #e3e3e3; font-size: 0; line-height: 0;}

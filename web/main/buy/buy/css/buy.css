@@ -1,0 +1,3245 @@
+.displaynone {
+	display: none !important;
+}
+body.eMobilePopup {
+	overflow: hidden; position: fixed;
+}
+.ec-base-label {
+	margin-right: 5px; display: inline-block;
+}
+.ec-base-label img {
+	vertical-align: middle;
+}
+.ec-solution-box {
+	padding: 20px; border: 5px solid rgb(232, 232, 232); border-image: none; color: rgb(64, 64, 64);
+}
+.ec-solution-box.gHalf {
+	padding: 20px 0px; position: relative;
+}
+.ec-solution-box.gHalf::before {
+	left: 50%; top: 0px; width: 1px; height: 100%; display: block; position: absolute; content: ""; background-color: rgb(230, 230, 230);
+}
+.ec-solution-box.typeBg {
+	background-color: rgb(251, 250, 250);
+}
+.ec-solution-box.typeThin {
+	border-width: 1px; border-color: rgb(215, 213, 213);
+}
+.ec-solution-box.typeThinBg {
+	border-width: 1px; border-color: rgb(215, 213, 213); background-color: rgb(251, 250, 250);
+}
+.ec-solution-box.typeThinBg > .agree {
+	background: rgb(255, 255, 255); padding: 20px; border: 1px solid rgb(230, 230, 230); border-image: none;
+}
+.ec-solution-box.typeThinBg > .agree p {
+	padding: 0px 0px 17px;
+}
+.ec-solution-box.typeMember {
+	padding: 0px;
+}
+.ec-solution-box.typeMember .information {
+	padding: 10px 0px; width: 100%; display: table; table-layout: fixed; box-sizing: border-box;
+}
+.ec-solution-box.typeMember .information > .title {
+	padding: 0px 15px; width: 70px; text-align: center; vertical-align: middle; display: table-cell;
+}
+.ec-solution-box.typeMember .information > .thumbnail {
+	padding: 0px 15px; width: 70px; text-align: center; vertical-align: middle; display: table-cell;
+}
+.ec-solution-box.typeMember .information > .title {
+	vertical-align: middle;
+}
+.ec-solution-box.typeMember .information > .thumbnail img {
+	max-width: 70px;
+}
+.ec-solution-box.typeMember .information .description {
+	padding: 0px 10px; width: auto; line-height: 1.5em; vertical-align: middle; border-left-color: rgb(232, 232, 232); border-left-width: 1px; border-left-style: solid; display: table-cell;
+}
+.ec-solution-box.typeMember.gMessage {
+	border-width: 1px; border-color: rgb(215, 213, 213);
+}
+.ec-solution-box .message {
+	background: url("//img.echosting.cafe24.com/skin/base/common/ico_info.gif") no-repeat 10px rgb(251, 251, 251); padding: 10px 0px 10px 35px; border-bottom-color: rgb(232, 231, 231); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.ec-solution-box.typeProduct {
+	padding: 15px 0px; width: 100%; display: table; table-layout: fixed; box-sizing: border-box;
+}
+.ec-solution-box.typeProduct .thumbnail {
+	padding: 0px 20px; vertical-align: middle; display: table-cell;
+}
+.ec-solution-box.typeProduct .information {
+	padding: 0px 20px; vertical-align: middle; display: table-cell;
+}
+.ec-solution-box.typeProduct .thumbnail {
+	width: 100px;
+}
+.ec-solution-box.typeProduct .thumbnail img {
+	border: 1px solid rgb(215, 213, 213); border-image: none; max-width: 90px;
+}
+.ec-solution-box.typeProduct .information {
+	padding-left: 0px;
+}
+.ec-solution-button {
+	padding: 10px 0px; text-align: center;
+}
+.ec-solution-button.justify {
+	position: relative;
+}
+.ec-solution-button::after {
+	clear: both; display: block; content: "";
+}
+.ec-solution-button .gLeft {
+	text-align: left; float: left;
+}
+.ec-solution-button .gRight {
+	text-align: right; float: right;
+}
+.ec-solution-button.justify .gLeft {
+	left: 0px; position: absolute;
+}
+.ec-solution-button.justify .gRight {
+	right: 0px; position: absolute;
+}
+.ec-solution-button .text {
+	margin: 0px 6px 0px 10px; color: rgb(53, 53, 53); line-height: 24px;
+}
+.ec-solution-button.typeBorder {
+	padding: 10px 20px; border: 1px solid rgb(215, 213, 213); border-image: none; margin-top: -1px;
+}
+.ec-solution-button.typeBG {
+	background: rgb(251, 250, 250); padding: 10px 20px; border: 1px solid rgb(215, 213, 213); border-image: none;
+}
+.ec-solution-layer li {
+	list-style: none;
+}
+.ec-solution-layer table {
+	border: 0px currentColor; border-image: none; width: 100%; border-collapse: collapse; border-spacing: 0;
+}
+.ec-solution-layer caption {
+	display: none;
+}
+.ec-solution-layer h1 {
+	margin: 0px;
+}
+.ec-solution-layer h3 {
+	margin: 0px;
+}
+.ec-solution-layer {
+	background: rgb(255, 255, 255); border: 1px solid rgb(117, 117, 117); border-image: none; position: absolute; z-index: 100;
+}
+.ec-solution-layer .header {
+	background: rgb(73, 81, 100); padding: 7px 35px 7px 19px; color: rgb(255, 255, 255);
+}
+.ec-solution-layer .header > h1 {
+	line-height: 1.5; font-size: 14px;
+}
+.ec-solution-layer .header > h3 {
+	line-height: 1.5; font-size: 14px;
+}
+.ec-solution-layer .content {
+	padding: 20px; font-size: 12px;
+}
+.ec-solution-layer div.ec-solution-help {
+	margin-top: 0px;
+}
+.ec-solution-layer .ec-solution-button {
+	background: rgb(251, 250, 250); padding: 9px; text-align: center; border-top-color: rgb(215, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.ec-solution-layer .close {
+	padding: 11px 20px; top: 0px; right: 0px; position: absolute; cursor: pointer;
+}
+#popup .ec-solution-layer {
+	border: 0px currentColor; border-image: none; position: relative;
+}
+#popup .ec-solution-layer .header {
+	padding: 12px 35px 12px 19px;
+}
+#popup .ec-solution-layer .close {
+	top: 5px;
+}
+.ec-solution-layer .content > .ec-solution-table table:first-child {
+	margin-top: 0px;
+}
+.ec-solution-layer .ec-solution-table table {
+	line-height: 1.4;
+}
+.ec-solution-layer .ec-solution-table thead th {
+	padding: 9px 0px 8px;
+}
+.ec-solution-layer .ec-solution-table tbody th {
+	padding: 9px 0px 8px 10px;
+}
+.ec-solution-layer .ec-solution-table td {
+	padding: 9px 10px 8px;
+}
+.ec-solution-layer .ec-solution-table.typeWrite td {
+	padding: 5px 10px 4px;
+}
+.ec-solution-layer .ec-solution-table.typeList tfoot td {
+	padding: 10px 10px 12px;
+}
+.ec-solution-layer .ec-solution-table.typeBorder tfoot td {
+	padding: 10px 10px 12px;
+}
+.ec-solution-table table {
+	border-width: 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(215, 213, 213) rgb(215, 213, 213); margin: 10px 0px 0px; border-image: none; color: rgb(255, 255, 255); line-height: 1.5; position: relative;
+}
+.ec-solution-table.gLayoutFixed table {
+	table-layout: fixed;
+}
+.ec-solution-table.gLayoutFixed .gLayoutAuto table {
+	table-layout: auto;
+}
+.ec-solution-table table::before {
+	background: rgb(215, 213, 213); left: 0px; top: 1px; width: 100%; height: 1px; display: block; position: absolute; content: "";
+}
+.ec-solution-table thead th {
+	background: rgb(251, 250, 250); padding: 11px 0px 10px; color: rgb(53, 53, 53); font-weight: normal; vertical-align: middle; border-bottom-color: rgb(223, 223, 223); border-left-color: rgb(223, 223, 223); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.ec-solution-table tbody th {
+	border-width: 1px 1px 0px; border-style: solid; border-color: rgb(223, 223, 223); padding: 11px 0px 10px 18px; border-image: none; text-align: left; color: rgb(53, 53, 53); font-weight: normal; background-color: rgb(251, 250, 250);
+}
+.ec-solution-table th:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.ec-solution-table td {
+	padding: 11px 10px 10px; color: rgb(53, 53, 53); vertical-align: middle; border-top-color: rgb(223, 223, 223); border-top-width: 1px; border-top-style: solid;
+}
+.ec-solution-table td.clear {
+	padding: 0px !important; border: 0px currentColor !important; border-image: none !important;
+}
+.ec-solution-table.typeWrite td {
+	padding: 8px 10px 7px;
+}
+.ec-solution-table.typeList table {
+	border-top-color: rgb(215, 213, 213);
+}
+.ec-solution-table.typeList table::before {
+	display: none;
+}
+.ec-solution-table.typeList td {
+	padding: 8px 10px 7px;
+}
+.ec-solution-table.typeList tfoot td {
+	background: rgb(251, 250, 250); padding: 15px 10px 17px;
+}
+.ec-solution-table .message {
+	padding: 50px 0px; border: 1px solid rgb(215, 213, 213); border-image: none; text-align: center; color: rgb(117, 117, 117); font-weight: bold;
+}
+.ec-solution-table table + .message {
+	margin: -1px 0px 0px;
+}
+.ec-solution-table table td.message {
+	padding: 50px 0px;
+}
+.ec-solution-table .scroll .message {
+	border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeList .head td {
+	background: rgb(251, 250, 250); padding: 11px 0px 10px; text-align: center; color: rgb(53, 53, 53); vertical-align: middle; border-bottom-color: rgb(223, 223, 223); border-left-color: rgb(223, 223, 223); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;
+}
+.ec-solution-table.typeList .head td:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.ec-solution-table.typeList .scroll {
+	border-width: 0px 1px 1px; border-style: solid; border-color: rgb(215, 213, 213); border-image: none; margin-top: -1px; position: relative; -ms-overflow-x: hidden; -ms-overflow-y: scroll; min-height: 100px; max-height: 185px;
+}
+.ec-solution-table.typeList .scroll table {
+	margin: 0px; border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeList .scroll table::before {
+	display: none;
+}
+.ec-solution-table.typeList .scroll .message {
+	border: 0px currentColor; border-image: none;
+}
+.ec-solution-table thead.blind {
+	display: none;
+}
+.ec-solution-table thead.blind th {
+	display: none;
+}
+.ec-solution-table thead.blind + tbody tr:first-child th {
+	border-top-width: 0px;
+}
+.ec-solution-table thead.blind + tbody tr:first-child td {
+	border-top-width: 0px;
+}
+.ec-solution-table.typeList.gLine table {
+	border-width: 0px 0px 1px;
+}
+.ec-solution-table.typeClear table::before {
+	display: none;
+}
+.ec-solution-table.typeClear table {
+	background: none; border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeClear th {
+	background: none; border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeClear td {
+	background: none; border: 0px currentColor; border-image: none;
+}
+.ec-solution-table.typeClear th {
+	font-weight: bold;
+}
+.ec-solution-table.gBorder td {
+	border-left-color: rgb(223, 223, 223); border-left-width: 1px; border-left-style: solid;
+}
+.ec-solution-table.gBorder td:first-child {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.ec-solution-table .left {
+	text-align: left;
+}
+.ec-solution-table .center {
+	text-align: center;
+}
+.ec-solution-table .right {
+	text-align: right;
+}
+.ec-solution-table.typeList .center td {
+	padding-right: 0px; padding-left: 0px;
+}
+.ec-solution-table.typeList td.center {
+	padding-right: 0px; padding-left: 0px;
+}
+.ec-solution-table.typeList .center td.left {
+	padding-left: 10px;
+}
+.ec-solution-table.typeList .center td.right {
+	padding-right: 10px;
+}
+.ec-solution-table .top th {
+	vertical-align: top;
+}
+.ec-solution-table th.top {
+	vertical-align: top;
+}
+.ec-solution-table .top td {
+	vertical-align: top;
+}
+.ec-solution-table td.top {
+	vertical-align: top;
+}
+.ec-solution-table .middle th {
+	vertical-align: middle;
+}
+.ec-solution-table th.middle {
+	vertical-align: middle;
+}
+.ec-solution-table .middle td {
+	vertical-align: middle;
+}
+.ec-solution-table td.middle {
+	vertical-align: middle;
+}
+.ec-solution-table img {
+	vertical-align: middle;
+}
+@media print
+{
+.ec-solution-table table::before {
+	display: none;
+}
+}
+.modal_win {
+	background: rgb(255, 255, 255); border: 1px solid rgb(14, 38, 78); border-image: none; width: 350px; font-family: Tahoma,Geneva,sans-serif; font-size: 12px; display: none; position: absolute; z-index: 100;
+}
+.modal_win .modal_win_pop_header {
+	background: url("//img.cafe24.com/img3/builder/admin/pop_header_bg.gif") repeat-x 0px 0px; padding: 7px 0px; width: 100%; height: 15px; border-bottom-color: rgb(179, 197, 222); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.modal_win .modal_win_pop_header .title {
+	background: 0px 0px !important; padding: 0px; color: rgb(255, 255, 255) !important; font-size: 11px; font-weight: bold; margin-left: 10px; float: left;
+}
+.modal_win .modal_win_pop_header a {
+	background: url("//img.cafe24.com/img3/builder/admin/button.gif") no-repeat left top; margin: -2px 10px 0px 0px; padding: 0px; width: 17px; height: 16px; display: inline-block;
+}
+.modal_win .modal_win_pop_header a:hover {
+	background-position: -19px;
+}
+.modal_win .infotext {
+	background: url("//img.cafe24.com/img3/builder/admin/bul_dot02.gif") no-repeat 1px 14px; padding: 10px 0px 3px 8px; text-align: left; color: rgb(51, 51, 51); font-size: 11px; font-weight: normal; margin-left: 10px;
+}
+.modal_win .footer_area {
+	height: 45px; text-align: center;
+}
+.modal_win .contents {
+	margin: 0px auto; text-align: left; padding-top: 5px; padding-left: 5px;
+}
+.btn01 {
+	background: url("//img-001.cafe24.com/img3/builder/admin/btn01_bg2.gif") no-repeat left top; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 11px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap; position: relative;
+}
+.btn01 a {
+	background: url("//img-001.cafe24.com/img3/builder/admin/btn01_bg2.gif") no-repeat left top; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 11px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap; position: relative;
+}
+.btn01 button {
+	background: url("//img-001.cafe24.com/img3/builder/admin/btn01_bg2.gif") no-repeat left top; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 11px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap; position: relative;
+}
+.btn01 input {
+	background: url("//img-001.cafe24.com/img3/builder/admin/btn01_bg2.gif") no-repeat left top; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 11px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap; position: relative;
+}
+.btn01 {
+	background-position: right top; padding: 0px; height: 20px; margin-right: 1px; vertical-align: middle; cursor: pointer;
+}
+.btn01 a {
+	padding: 1px 6px 3px 8px; height: 20px !important; right: 2px; color: rgb(51, 51, 51) !important; line-height: 21px; font-weight: normal !important; vertical-align: top; cursor: pointer;
+}
+.btn01 button {
+	padding: 1px 6px 3px 8px; right: 2px; line-height: 16px; vertical-align: top; cursor: pointer;
+}
+.btn01 input {
+	padding: 1px 6px 3px 8px; right: 2px; line-height: 16px; vertical-align: top; cursor: pointer;
+}
+.btn02 {
+	background: url("//img.cafe24.com/img3/builder/admin/btn02_bg.gif") no-repeat right top; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 12px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.btn02 a {
+	background: url("//img.cafe24.com/img3/builder/admin/btn02_bg.gif") no-repeat right top; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 12px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.btn02 button {
+	background: url("//img.cafe24.com/img3/builder/admin/btn02_bg.gif") no-repeat right top; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 12px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.btn02 input {
+	background: url("//img.cafe24.com/img3/builder/admin/btn02_bg.gif") no-repeat right top; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 12px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.btn02 {
+	background-position: left top; padding: 0px 0px 0px 9px; height: 24px; vertical-align: middle; cursor: pointer;
+}
+.btn02 a {
+	padding: 0px 19px 0px 11px; height: 24px; line-height: 23px; vertical-align: top; cursor: pointer;
+}
+.btn02 button {
+	padding: 0px 19px 0px 11px; height: 24px; line-height: 23px; vertical-align: top; cursor: pointer;
+}
+.btn02 input {
+	padding: 0px 19px 0px 11px; height: 24px; line-height: 23px; vertical-align: top; cursor: pointer;
+}
+.btn02_on {
+	background: url("//img.cafe24.com/img3/builder/admin/btn02_bg.gif") no-repeat right -24px; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 12px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.btn02_on a {
+	background: url("//img.cafe24.com/img3/builder/admin/btn02_bg.gif") no-repeat right -24px; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 12px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.btn02_on button {
+	background: url("//img.cafe24.com/img3/builder/admin/btn02_bg.gif") no-repeat right -24px; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 12px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.btn02_on input {
+	background: url("//img.cafe24.com/img3/builder/admin/btn02_bg.gif") no-repeat right -24px; margin: 0px; border: 0px currentColor; border-image: none; color: rgb(51, 51, 51); overflow: visible; font-family: dotum,µ¸¿ò; font-size: 12px; text-decoration: none !important; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.btn02_on {
+	background-position: left -24px; padding: 0px 0px 0px 9px; height: 24px; vertical-align: middle; cursor: pointer;
+}
+.btn02_on a {
+	padding: 0px 19px 0px 11px; height: 24px; line-height: 23px; vertical-align: top; cursor: pointer;
+}
+.btn02_on button {
+	padding: 0px 19px 0px 11px; height: 24px; line-height: 23px; vertical-align: top; cursor: pointer;
+}
+.btn02_on input {
+	padding: 0px 19px 0px 11px; height: 24px; line-height: 23px; vertical-align: top; cursor: pointer;
+}
+.btn_c {
+	width: 100%; height: 25px; text-align: center; clear: both; margin-top: 12px;
+}
+.btn_l {
+	text-align: left; margin-top: 12px;
+}
+.btn_r {
+	text-align: right; margin-top: 12px;
+}
+.xans-product-detail {
+	padding: 0px 0px 10px; overflow: hidden;
+}
+.xans-product-detail .listImg {
+	margin: 0px 0px 1px; text-align: center; overflow: hidden; font-size: 0px;
+}
+.xans-product-detail .listImg ul {
+	margin: 0px 0px 0px -1px; overflow: hidden; display: inline-block; -ms-zoom: 1;
+}
+.xans-product-detail .listImg li {
+	margin: 0px 0px 0px 1px; float: left;
+}
+.xans-product-detail .listImg li img {
+	width: 72px; cursor: pointer;
+}
+.xans-product-detail .path {
+	margin: 3px 0px 17px; overflow: hidden;
+}
+.xans-product-detail .path h3 {
+	margin: 0px; text-indent: -9999em; float: left;
+}
+.xans-product-detail .path ul {
+	float: right;
+}
+.xans-product-detail .path ol {
+	float: right;
+}
+.xans-product-detail .path li {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/bg_path.gif") no-repeat 0px 50%; padding: 0px 0px 0px 22px; font-size: 0.9em; display: inline;
+}
+.xans-product-detail .path li.displaynone {
+	display: none;
+}
+.xans-product-detail .path li.first {
+	background: none;
+}
+.xans-product-detail #imgArea {
+	margin: 0px auto 20px; width: 100%;
+}
+.xans-product-detail #imgArea .keyImg {
+	width: 100%; text-align: center;
+}
+.xans-product-detail #imgArea .keyImg img {
+	max-width: 100%;
+}
+.xans-product-detail #prdInfo {
+	margin: 0px auto; width: 322px; height: auto; font-family: "Levenim MT","arial","µ¸¿ò"; position: relative;
+}
+.xans-product-detail #prdInfo .icon {
+	text-align: center; margin-bottom: 10px;
+}
+.xans-product-detail #prdInfo h3 {
+	margin: 0px auto; text-align: left; color: rgb(153, 153, 153); line-height: 18px; font-family: "Levenim MT","arial"; font-size: 10pt; font-weight: normal; vertical-align: top;
+}
+.xans-product-detail #prdInfo h3 span {
+	
+}
+.xans-product-detail #prdInfo h3 span img {
+	vertical-align: middle;
+}
+.xans-product-detail #prdInfo .prdName {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/bg_dot.gif") repeat-x 0px bottom; padding: 8px 0px 10px;
+}
+.xans-product-detail #prdInfo .mileage td {
+	padding-top: 7px;
+}
+.xans-product-detail #prdInfo .mileage td li {
+	line-height: 1.7em;
+}
+.xans-product-detail #prdInfo table {
+	margin: 10px 0px 0px; border: 0px currentColor; border-image: none; width: 322px;
+}
+.xans-product-detail #prdInfo th {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.xans-product-detail #prdInfo td {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.xans-product-detail #prdInfo th {
+	width: 90px; height: 30px; text-align: left; color: rgb(85, 85, 85); font-weight: normal; vertical-align: middle;
+}
+.xans-product-detail #prdInfo td {
+	text-align: right; color: rgb(85, 85, 85); vertical-align: middle;
+}
+.xans-product-detail #prdInfo td .ProductPrice {
+	color: rgb(0, 0, 0); font-family: "Kalinga","Levenim MT","arial"; font-size: 13px; font-weight: normal;
+}
+.xans-product-detail #prdInfo td .sale {
+	color: rgb(0, 0, 0); font-family: "Kalinga","Levenim MT","arial"; font-size: 13px; font-weight: normal;
+}
+.xans-product-detail #prdInfo .ProductPoint {
+	color: rgb(0, 0, 0); font-family: "Kalinga","Levenim MT","arial"; font-size: 13px; font-weight: normal;
+}
+.xans-product-detail #prdInfo td input {
+	border-style: none none solid; height: 18px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px;
+}
+.xans-product-detail #prdInfo td.social {
+	padding: 4px 0px 0px;
+}
+.xans-product-detail #prdInfo td.social img {
+	cursor: pointer;
+}
+.xans-product-detail #prdInfo td .sale {
+	text-decoration: line-through;
+}
+.xans-product-detail #prdInfo td p {
+	position: relative; z-index: 0;
+}
+.xans-product-detail #prdInfo td input {
+	border: 1px solid rgb(221, 221, 221); border-image: none; width: 30px; height: 18px; text-align: center; line-height: 18px;
+}
+.xans-product-detail #prdInfo td .QuantityUp {
+	top: 0px; right: 18px; position: absolute; z-index: 1;
+}
+.xans-product-detail #prdInfo td .QuantityDown {
+	top: 0px; right: 0px; position: absolute; z-index: 1;
+}
+.xans-product-detail #prdInfo .delivery input {
+	border: 0px currentColor; border-image: none;
+}
+.xans-product-detail #prdInfo td img.qrcode {
+	border: 1px solid rgb(225, 225, 225); border-image: none;
+}
+.xans-product-detail #prdInfo td p.qrcode {
+	padding: 5px 0px 0px;
+}
+.xans-product-detail #prdInfo .cyworld img {
+	cursor: pointer;
+}
+.xans-product-detail #prdInfo .cyworld .cyTooltip {
+	position: relative; z-index: 101;
+}
+.xans-product-detail #prdInfo .cyworld #divNate {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/product/bg_cyTooltipTop.gif") no-repeat 0px 0px; padding: 20px 0px 0px; left: 134px; top: 0px; width: 243px; position: absolute;
+}
+.xans-product-detail #prdInfo .cyworld #divNate .inner {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/product/bg_cyTooltipBtm.gif") no-repeat 0px bottom; padding: 0px 10px 17px; font-size: 11px;
+}
+.xans-product-detail #prdInfo .cyworld #divNate .inner strong {
+	color: rgb(255, 100, 64); font-weight: normal;
+}
+.xans-product-detail #prdInfo .btnArea {
+	margin: 50px 0px 0px; text-align: center;
+}
+.xans-product-detail #prdInfo .btnArea a {
+	display: block;
+}
+.xans-product-detail #prdInfo .btnArea p {
+	margin: 5px 0px;
+}
+.xans-product-detail #prdInfo .btnArea p img {
+	float: left; display: block;
+}
+.xans-product-detail #prdEvent {
+	overflow: hidden; clear: both;
+}
+.xans-product-detail .titleArea {
+	margin: 17px 0px 30px; height: 21px; border-bottom-color: rgb(222, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; -ms-zoom: 1;
+}
+.xans-product-detail .titleArea::after {
+	clear: both; display: block; content: "";
+}
+.xans-product-detail .titleArea h3 {
+	padding: 0px 5px 0px 0px; height: 21px; color: rgb(39, 40, 35); font-size: 16px; border-bottom-color: rgb(39, 40, 35); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.xans-product-multioption {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/bg_dot.gif") repeat-x 0px 0px;
+}
+.xans-product-multioption p {
+	padding: 10px 0px; text-align: right;
+}
+.xans-product-multioption div {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/bg_dot.gif") repeat-x 0px 0px; margin: 10px 0px 0px;
+}
+.xans-myshop-benefit {
+	margin: 30px 0px; padding: 10px; color: rgb(139, 139, 140); overflow: hidden; clear: both; border-top-color: rgb(51, 51, 51); border-bottom-color: rgb(51, 51, 51); border-top-width: 3px; border-bottom-width: 3px; border-top-style: solid; border-bottom-style: solid; -ms-zoom: 1;
+}
+.xans-myshop-benefit p {
+	padding: 0px 10px 0px 0px; float: left;
+}
+.xans-myshop-benefit p strong {
+	color: rgb(140, 145, 162);
+}
+.xans-myshop-benefit p.myInfo {
+	padding: 0px; width: 260px; line-height: 20px;
+}
+.xans-myshop-benefit p span.typeBlock {
+	display: block;
+}
+#image_zoom_small {
+	background: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170); border-image: none; display: none; position: absolute; z-index: 999; opacity: 0.5;
+}
+#zoom_wrap {
+	left: 0px; top: 0px; position: absolute;
+}
+.image_zoom_large {
+	background: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170); border-image: none; width: 350px; height: 350px; overflow: hidden; position: absolute; z-index: 999;
+}
+.image_zoom_large .image_zoom_large_relative {
+	position: relative;
+}
+.image_zoom_large .image_zoom_large_relative #zoom_image {
+	position: absolute; z-index: 99;
+}
+#divNvPointInfo {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(91, 151, 97); border-image: none; width: 245px; color: rgb(119, 119, 119); font-size: 11px; display: none; position: absolute; z-index: 99;
+}
+#divNvPointInfo a {
+	padding: 5px 0px 0px; color: rgb(30, 194, 40); display: block;
+}
+#divNvPointInfo a img {
+	vertical-align: middle;
+}
+#imgNaverMileageHelp {
+	cursor: pointer;
+}
+#product_detailA {
+	margin: 120px auto 100px; width: 960px; height: auto; overflow: hidden;
+}
+.product_detailL {
+	width: 600px; float: left;
+}
+.product_detailL {
+	
+}
+.product_detailR {
+	width: 322px; float: right;
+}
+#detailArea p img {
+	
+}
+#detailArea img {
+	
+}
+.prd_name {
+	width: 322px; overflow: hidden; padding-bottom: 14px; vertical-align: top; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.prd_name h3 {
+	width: 207px; margin-right: 10px; float: left;
+}
+.prd_name img {
+	width: 60px; padding-top: 2px; margin-bottom: 2px; float: right;
+}
+.xans-product-additional {
+	margin: 0px auto; width: 1310px; text-align: center;
+}
+.fix_buy_now {
+	left: 50%; bottom: 60px; margin-left: 482px; display: none; position: fixed; cursor: pointer;
+}
+.product_detailR.fix {
+	background: rgb(255, 255, 255); padding: 15px 11px 0px; border: 1px solid rgb(223, 223, 223); border-image: none; left: 50%; bottom: 175px; margin-left: 340px; display: none; position: fixed;
+}
+.product_detailR.show {
+	display: block !important;
+}
+.product_detailR.hide {
+	display: none !important;
+}
+.product_detailR.fix .board {
+	display: none !important;
+}
+.product_detailR.fix .text_simple {
+	display: none !important;
+}
+.product_detailR.fix #prdInfo .xans-product-action {
+	border: 0px currentColor; border-image: none;
+}
+.btn_review {
+	border: 1px solid rgb(221, 221, 221); border-image: none; width: 159px; height: 25px; color: rgb(221, 221, 221); line-height: 25px; margin-top: 15px; float: left; display: block;
+}
+.btn_qa {
+	border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) currentColor; border-image: none; width: 160px; height: 25px; line-height: 25px; margin-top: 15px; float: left; display: block;
+}
+.text_simple:hover {
+	text-decoration: none;
+}
+.xans-product-detail {
+	margin: 0px auto; padding: 0px; position: relative;
+}
+.xans-product-detail .detailArea {
+	
+}
+.xans-product-detail .detailArea::after {
+	clear: both; display: block; content: "";
+}
+.xans-product-detail .headingArea {
+	margin: 0px 0px 15px; padding: 0px 0px 10px; line-height: 24px; font-family: "±¼¸²",Gulim; border-bottom-color: rgb(232, 232, 232); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.xans-product-detail .headingArea h2 {
+	color: rgb(46, 46, 46); font-size: 14px; display: inline;
+}
+.xans-product-detail .headingArea .icon img {
+	margin: 0px -3px 0px 0px; vertical-align: middle;
+}
+.xans-product-detail .headingArea .supply {
+	overflow: hidden; float: right;
+}
+.xans-product-detail .headingArea .supply span {
+	padding: 0px 3px 0px 0px; color: rgb(85, 85, 85); font-size: 16px; font-weight: bold;
+}
+.xans-product-detail .imgArea {
+	
+}
+.xans-product-detail .imgArea .keyImg {
+	
+}
+.xans-product-detail .imgArea .keyImg img {
+	width: 100%; cursor: pointer;
+}
+.xans-product-detail .imgArea .listImg {
+	margin: 10px auto 0px; width: 600px; overflow: hidden;
+}
+.xans-product-detail .imgArea .listImg ul {
+	margin: 0px 0px 0px 2px; height: 77px; line-height: 0; font-size: 0px;
+}
+.xans-product-detail .imgArea .listImg li {
+	margin: 0px 1px; line-height: 14px; font-size: 12px; vertical-align: top; display: inline-block;
+}
+.xans-product-detail .imgArea .listImg li img {
+	width: 72px; height: 72px; cursor: pointer;
+}
+.xans-product-detail .imgArea .listImg button {
+	background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/product/btn_product_detail_ctrl.png") no-repeat; top: 0px; width: 21px; height: 77px; color: transparent; line-height: 0; font-size: 0px; position: absolute;
+}
+.xans-product-detail .imgArea .listImg .prev {
+	background-position: 0px 0px; left: 0px;
+}
+.xans-product-detail .imgArea .listImg .next {
+	background-position: -31px 0px; right: 0px;
+}
+.xans-product-detail .imgArea .control {
+	background: rgb(251, 250, 250); margin: 30px auto 0px; border: 1px solid rgb(215, 213, 213); border-image: none; width: 346px; text-align: center; overflow: hidden;
+}
+.xans-product-detail .imgArea .control .prev {
+	border-right-color: rgb(215, 213, 213); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.xans-product-detail .imgArea .control .next {
+	border-left-color: rgb(215, 213, 213); border-left-width: 1px; border-left-style: solid; float: right;
+}
+.xans-product-detail .imgArea .color {
+	margin: 20px 0px 17px; overflow: hidden;
+}
+.xans-product-detail .imgArea .chips {
+	margin: 0px 3px 3px 0px; border: 1px solid rgb(227, 227, 227); border-image: none; width: 28px; height: 18px; line-height: 0; font-size: 0px; float: left;
+}
+.xans-product-detail .imgArea .button {
+	margin: 30px auto 0px; padding: 0px 0px 23px; width: 346px; text-align: center; border-top-color: currentColor; border-bottom-color: rgb(232, 232, 232); border-top-width: 0px; border-bottom-width: 1px; border-top-style: none; border-bottom-style: solid; float: none;
+}
+.xans-product-detail .imgArea .button img {
+	margin: 0px 3px;
+}
+.xans-product-detail .infoArea p.delivery {
+	padding: 10px 0px 20px;
+}
+.xans-product-detail .infoArea .guideArea {
+	position: relative;
+}
+.xans-product-detail .infoArea .guideArea .info {
+	margin: 7px 0px 0px; padding: 8px 0px 0px 11px; color: rgb(117, 117, 117); border-top-color: rgb(232, 232, 232); border-top-width: 1px; border-top-style: solid;
+}
+.xans-product-detail .infoArea .guideArea .sizeGuide {
+	background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/product/ico_sizeGuide.gif") no-repeat 0px 3px; margin: 8px 0px 0px; right: 0px; bottom: 0px; position: absolute;
+}
+.xans-product-detail .infoArea .sizeGuide a {
+	background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/product/ico_sizeGuide_go.gif") no-repeat 100% 6px; padding: 2px 15px 2px 24px; color: rgb(53, 53, 53); vertical-align: top; display: inline-block;
+}
+.xans-product-detail .infoArea .sizeGuide a:hover {
+	text-decoration: none;
+}
+.xans-product-detail .infoArea table {
+	margin: 10px 0px 0px; border: 0px currentColor; border-image: none; font-size: 12px;
+}
+.xans-product-detail .infoArea th {
+	padding: 7px 0px 8px 9px; width: 115px; text-align: left; color: rgb(53, 53, 53); font-weight: normal; vertical-align: middle;
+}
+.xans-product-detail .infoArea td {
+	padding: 7px 10px 8px 0px; vertical-align: middle;
+}
+.xans-product-detail .infoArea img {
+	vertical-align: middle;
+}
+.xans-product-detail .infoArea input {
+	height: 22px; color: rgb(53, 53, 53);
+}
+.xans-product-detail .infoArea select {
+	width: 100%; height: 24px; color: rgb(53, 53, 53); font-size: 12px;
+}
+.xans-product-detail .infoArea td #delivery_cost_prepaid {
+	margin: 0px 0px 5px;
+}
+.xans-product-detail .infoArea td .inputWrap {
+	background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(197, 197, 197) rgb(233, 233, 233) rgb(233, 233, 233) rgb(197, 197, 197); padding: 0px 4px; border-image: none; display: block;
+}
+.xans-product-detail .infoArea td .inputWrap input {
+	border: 0px currentColor; border-image: none; width: 100%; line-height: 22px; font-size: 11px;
+}
+.xans-product-detail .infoArea td.social {
+	padding: 4px 0px 0px;
+}
+.xans-product-detail .infoArea td.social img {
+	cursor: pointer;
+}
+.xans-product-detail .infoArea td .sale {
+	text-decoration: line-through;
+}
+.xans-product-detail .infoArea td .period {
+	margin: 7px 0px 0px; color: rgb(53, 53, 53); font-size: 11px; display: block;
+}
+.xans-product-detail .infoArea td .mileage li {
+	line-height: 1.7em;
+}
+.xans-product-detail .infoArea td .quantity {
+	display: block; position: relative;
+}
+.xans-product-detail .infoArea td .quantity input {
+	border: 1px solid rgb(188, 188, 188); border-image: none; width: 30px; height: 18px;
+}
+.xans-product-detail .infoArea td .quantity .QuantityUp {
+	left: 32px; top: 0px; position: absolute;
+}
+.xans-product-detail .infoArea td .quantity .QuantityDown {
+	left: 32px; bottom: 0px; position: absolute;
+}
+.xans-product-detail .infoArea td .delivery input {
+	border: 0px currentColor; border-image: none;
+}
+.xans-product-detail .infoArea td .delivery label {
+	margin: 0px 30px 0px 0px;
+}
+.xans-product-detail .infoArea td img.qrcode {
+	border: 1px solid rgb(225, 225, 225); border-image: none;
+}
+.xans-product-detail .infoArea td #span_product_price_text {
+	font-weight: normal;
+}
+.xans-product-detail .infoArea td #span_product_coupon_dc_price {
+	color: rgb(7, 7, 5);
+}
+.xans-product-detail .infoArea td.fileInfo {
+	color: rgb(117, 117, 117);
+}
+.xans-product-detail .infoArea td.fileInfo input {
+	border-width: 1px; border-style: solid; border-color: rgb(197, 197, 197) rgb(233, 233, 233) rgb(233, 233, 233) rgb(197, 197, 197); border-image: none; width: 288px;
+}
+.xans-product-detail .infoArea td.fileInfo .infoDesc {
+	margin: 0px 0px 10px;
+}
+.xans-product-detail .infoArea td.fileInfo li {
+	margin: 4px 0px 0px; color: rgb(117, 117, 117); font-size: 11px;
+}
+.xans-product-detail .infoArea td.fileInfo li img {
+	vertical-align: bottom;
+}
+.xans-product-detail .delv_price_B strong {
+	font-weight: normal;
+}
+.xans-product-detail .btnTooltip {
+	vertical-align: middle; display: inline-block; position: relative; z-index: 10;
+}
+.xans-product-detail .infoArea .xans-product-option tr th {
+	padding: 5px 0px 5px 4px;
+}
+.xans-product-detail .infoArea .xans-product-option tr td {
+	padding: 4px 10px 4px 0px;
+}
+.xans-product-detail .infoArea .xans-product-option tr:first-child th {
+	padding-top: 14px; border-top-color: rgb(232, 232, 232); border-top-width: 1px; border-top-style: solid;
+}
+.xans-product-detail .infoArea .xans-product-option .xans-product-fileoption th {
+	padding-top: 14px; border-top-color: rgb(232, 232, 232); border-top-width: 1px; border-top-style: solid;
+}
+.xans-product-detail .infoArea .xans-product-option tr:first-child td {
+	padding-top: 10px; border-top-color: rgb(232, 232, 232); border-top-width: 1px; border-top-style: solid;
+}
+.xans-product-detail .infoArea .xans-product-option .xans-product-fileoption td {
+	padding-top: 10px; border-top-color: rgb(232, 232, 232); border-top-width: 1px; border-top-style: solid;
+}
+.xans-product-detail .infoArea .xans-product-option td.selectButton {
+	text-align: right;
+}
+.xans-product-detail .infoArea .xans-product-addoption td .inputWrap {
+	width: 280px; display: inline-block;
+}
+.xans-product-detail .infoArea .xans-product-addoption .txtByte {
+	letter-spacing: -1px; font-size: 11px; vertical-align: middle;
+}
+.xans-product-detail .infoArea .xans-product-addoption .txtByte strong {
+	color: rgb(0, 139, 204);
+}
+.xans-product-action {
+	padding: 10px 0px; width: 100%; border-top-color: rgb(232, 232, 232); border-top-width: 1px; border-top-style: solid;
+}
+.xans-product-action .btnArea {
+	margin: 0px 0px 15px; text-align: left; line-height: 0; overflow: hidden; font-size: 0px;
+}
+.xans-product-action .btnArea a {
+	vertical-align: top; display: inline-block;
+}
+.xans-product-action .btnArea a img {
+	margin: 0px 0px 0px 10px; line-height: 14px; font-size: 12px; cursor: pointer;
+}
+.xans-product-action .btnArea a:first-child img {
+	margin-left: 0px;
+}
+.xans-product-detail .eventArea {
+	color: rgb(53, 53, 53);
+}
+.xans-product-detail .eventArea h3 {
+	padding: 0px 0px 0px 9px; color: rgb(0, 139, 204); line-height: 39px; font-size: 12px; border-top-color: rgb(232, 232, 232); border-bottom-color: rgb(232, 232, 232); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.xans-product-detail .eventArea .event {
+	padding: 27px 10px 46px 9px; color: rgb(53, 53, 53); line-height: 18px;
+}
+.xans-myshop-benefit {
+	margin: 30px 0px;
+}
+.xans-myshop-benefit .thanks {
+	background: rgb(251, 251, 251); border-width: 1px; border-style: solid; border-color: rgb(214, 212, 212) rgb(214, 212, 212) rgb(232, 231, 231); padding: 7px 0px 11px 9px; border-image: none; color: rgb(53, 53, 53);
+}
+.xans-myshop-benefit .thanks img {
+	margin: -1px 6px 0px 0px; vertical-align: middle;
+}
+.xans-myshop-benefit .myInfo {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(214, 212, 212) rgb(214, 212, 212); padding: 9px 10px 10px 100px; border-image: none; overflow: hidden;
+}
+.xans-myshop-benefit .myInfo p {
+	color: rgb(117, 117, 117); line-height: 18px;
+}
+.xans-myshop-benefit .myThumb {
+	margin: 0px 0px 0px -91px; float: left;
+}
+.xans-myshop-benefit .member {
+	margin: 2px 0px 19px;
+}
+.xans-myshop-benefit .member strong {
+	color: rgb(53, 53, 53);
+}
+.xans-myshop-benefit .member em {
+	color: rgb(53, 53, 53); font-style: normal;
+}
+#image_zoom_small {
+	background: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170); border-image: none; display: block; position: absolute; z-index: 999; opacity: 0.5;
+}
+#zoom_wrap {
+	left: 380px; top: 30px; position: absolute; z-index: 100;
+}
+.image_zoom_large {
+	background: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170); border-image: none; width: 350px; height: 350px; overflow: hidden; position: absolute; z-index: 999;
+}
+.image_zoom_large .image_zoom_large_relative {
+	position: relative;
+}
+.image_zoom_large .image_zoom_large_relative #zoom_image {
+	position: absolute; z-index: 99;
+}
+#NaverChk_Button {
+	margin: 10px 0px 0px; clear: both; float: right;
+}
+#divNvPointInfo {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(91, 151, 97); border-image: none; width: 245px; color: rgb(119, 119, 119); font-size: 11px; display: none; position: absolute; z-index: 99;
+}
+#divNvPointInfo a {
+	padding: 5px 0px 0px; color: rgb(30, 194, 40); display: block;
+}
+#divNvPointInfo a img {
+	vertical-align: middle;
+}
+#imgNaverMileageHelp {
+	cursor: pointer;
+}
+.infoArea .productSet {
+	margin: 10px 0px 0px; border: 1px solid rgb(215, 213, 213); border-image: none;
+}
+.infoArea .productSet table {
+	margin: 0px; table-layout: fixed;
+}
+.infoArea .productSet th {
+	padding: 5px 5px 5px 8px; width: 100px; color: rgb(53, 53, 53);
+}
+.infoArea .productSet td {
+	padding: 5px 10px; color: rgb(53, 53, 53);
+}
+.infoArea .productSet td.del {
+	text-decoration: line-through;
+}
+.infoArea .productSet td.price {
+	color: rgb(255, 138, 86); font-weight: bold;
+}
+.infoArea .productSet td.sale {
+	color: rgb(249, 89, 89); font-weight: bold;
+}
+.infoArea .productSet td.thumbnail img {
+	margin: 3px 0px 7px; border: 1px solid rgb(236, 236, 236); border-image: none; width: 78px; height: 108px;
+}
+.infoArea .productSet .product {
+	padding: 9px 0px 4px; vertical-align: top; border-top-color: rgb(233, 233, 233); border-top-width: 1px; border-top-style: solid;
+}
+.infoArea .productSet .sizeGuide {
+	padding: 5px 10px; height: 19px; text-align: right; border-top-color: rgb(215, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.infoArea .productSet .sizeGuide a {
+	margin: 0px; padding-left: 0px; position: static;
+}
+.infoArea .productSet .sizeGuide a span {
+	background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/product/ico_sizeGuide.gif") no-repeat 0px 2px; padding: 0px 0px 0px 24px; display: inline-block;
+}
+.infoArea .productSet .seperate {
+	vertical-align: top;
+}
+.infoArea .productSet .option {
+	vertical-align: top;
+}
+.infoArea .productSet .option td {
+	padding: 4px 10px;
+}
+.infoArea .productSet .info {
+	padding: 0px 0px 0px 58px; color: rgb(143, 143, 145); font-size: 11px;
+}
+.infoArea .productSet .selectButton {
+	text-align: right;
+}
+.infoArea .productSet .recommend {
+	background: rgb(251, 250, 250); padding: 0px 0px 0px 8px; color: rgb(117, 117, 117); line-height: 38px; font-size: 11px; position: relative;
+}
+.infoArea .productSet .recommend strong {
+	padding: 0px 7px 0px 0px; color: rgb(53, 53, 53); font-size: 12px;
+}
+.infoArea .productSet .recommend .toggle {
+	top: 4px; right: 10px; position: absolute;
+}
+.infoArea .productSet.normal {
+	border: 0px currentColor; border-image: none;
+}
+.infoArea .productSet.normal th {
+	border-right-color: rgb(215, 213, 213); border-right-width: 1px; border-right-style: solid;
+}
+.infoArea .productSet.normal tr:first-child th {
+	background: rgb(251, 250, 250); padding-top: 11px; padding-bottom: 11px; border-bottom-color: rgb(215, 213, 213); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.infoArea .productSet.normal tr:first-child td {
+	background: rgb(251, 250, 250); padding-top: 11px; padding-bottom: 11px; border-bottom-color: rgb(215, 213, 213); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.infoArea .productSet.normal .option th {
+	padding-top: 0px;
+}
+.infoArea .productSet.normal .option td {
+	padding: 1px 10px 7px;
+}
+.infoArea .productSet.normal .option tr:first-child th {
+	background: none; padding-top: 5px; padding-bottom: 6px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.infoArea .productSet.normal .option tr:first-child td {
+	background: none; padding-top: 1px; padding-bottom: 6px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.infoArea .productSet.normal .product {
+	margin: 1px 0px 0px; padding: 0px; border: 1px solid rgb(215, 213, 213); border-image: none;
+}
+.infoArea .productSet .xans-product-addoption td .inputWrap {
+	width: 273px; display: inline-block;
+}
+.infoArea .productSet.hide .product {
+	display: none;
+}
+#totalProducts {
+	margin: 21px 0px 0px;
+}
+#totalProducts .info {
+	padding: 0px 0px 9px; color: rgb(246, 91, 84); line-height: 14px; font-size: 11px;
+}
+#totalProducts .info img {
+	margin: 0px 5px 0px 0px;
+}
+#totalProducts table {
+	margin: 0px;
+}
+#totalProducts table .left {
+	text-align: left;
+}
+#totalProducts table .center {
+	text-align: center;
+}
+#totalProducts table .right {
+	text-align: right; color: rgb(0, 139, 204); padding-right: 9px; font-weight: bold;
+}
+#totalProducts thead th {
+	padding: 0px; height: 0px; line-height: 0; font-size: 0px;
+}
+#totalProducts tbody th {
+	vertical-align: middle;
+}
+#totalProducts tbody td {
+	padding: 9px 0px; color: rgb(53, 53, 53); line-height: 18px; vertical-align: middle; border-top-color: rgb(235, 235, 235); border-top-width: 1px; border-top-style: solid; -ms-word-break: break-all; -ms-word-wrap: break-word;
+}
+#totalProducts tbody tr td:first-child {
+	padding-left: 4px;
+}
+#totalProducts tbody tr:first-child td {
+	border-top-color: rgb(154, 155, 160); border-top-width: 1px; border-top-style: solid;
+}
+#totalProducts tbody td p {
+	padding: 0px 10px 0px 0px; line-height: 21px; font-weight: bold;
+}
+#totalProducts tbody td p.product span {
+	color: rgb(117, 117, 117); line-height: 18px; font-weight: normal;
+}
+#totalProducts tbody td p.product span.soldOut {
+	color: rgb(0, 139, 204);
+}
+#totalProducts tbody td img {
+	vertical-align: middle;
+}
+#totalProducts tbody td .quantity {
+	width: 50px; vertical-align: top; display: inline-block; position: relative;
+}
+#totalProducts tbody td .quantity input {
+	padding: 0px 2px 0px 3px; border-radius: 3px 0px 0px 3px; border: 1px solid rgb(212, 216, 217); border-image: none; width: 22px; height: 23px; line-height: 23px;
+}
+#totalProducts tbody td .quantity .up {
+	left: 28px; top: 0px; position: absolute;
+}
+#totalProducts tbody td .quantity .down {
+	left: 28px; top: 12px; position: absolute;
+}
+#totalProducts tbody.option_products tr td .quantity input {
+	height: 19px; line-height: 19px;
+}
+#totalProducts tbody.add_products tr td .quantity input {
+	height: 19px; line-height: 19px;
+}
+#totalProducts tbody.option_products tr td .quantity .down {
+	top: auto; bottom: 0px;
+}
+#totalProducts tbody.add_products tr td .quantity .down {
+	top: auto; bottom: 0px;
+}
+#totalProducts tbody td .mileage {
+	display: block; white-space: nowrap;
+}
+#totalProducts tbody td .mileage_price {
+	
+}
+#totalProducts tfoot td {
+	background: rgb(255, 255, 255); padding: 34px 9px 19px; color: rgb(53, 53, 53); vertical-align: middle; border-top-color: rgb(154, 155, 160); border-top-width: 1px; border-top-style: solid;
+}
+#totalProducts tfoot td .total {
+	color: rgb(0, 139, 204);
+}
+#totalProducts tfoot td .total em {
+	font-size: 21px; font-style: normal;
+}
+#totalProducts + .xans-product-action {
+	margin-top: 0px;
+}
+.differentialShipping {
+	margin: 0px 0px 0px -176px; left: 50%; top: 17px; width: 350px; overflow: hidden; display: none; position: absolute; z-index: 100;
+}
+.differentialShipping h3.title {
+	background: rgb(73, 81, 100); padding: 0px 35px 0px 19px; border: 0px currentColor; border-image: none; height: 35px; color: rgb(255, 255, 255); line-height: 35px; font-size: 14px;
+}
+.differentialShipping .content {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(117, 117, 117) rgb(117, 117, 117); padding: 12px 18px 14px; border-image: none; text-align: center;
+}
+.differentialShipping .close {
+	top: 12px; right: 14px; position: absolute;
+}
+.differentialShipping .close img {
+	cursor: pointer;
+}
+.differentialShipping .content ul {
+	color: rgb(117, 117, 117); line-height: 25px;
+}
+.differentialShipping .content li {
+	overflow: hidden;
+}
+.differentialShipping .content li strong {
+	font-weight: normal; float: left;
+}
+.differentialShipping .content li span {
+	color: rgb(46, 46, 46); float: right;
+}
+.differentialShipping .content .info {
+	margin: 7px 0px 0px; padding: 7px 0px 0px; text-align: right; color: rgb(128, 174, 239); font-size: 11px; border-top-color: rgb(176, 177, 179); border-top-width: 1px; border-top-style: dotted;
+}
+.xans-product-customsns {
+	vertical-align: middle; display: inline;
+}
+.xans-product-customsns ul {
+	vertical-align: middle; display: inline;
+}
+.xans-product-customsns li {
+	vertical-align: middle; display: inline;
+}
+.xans-product-customsns img {
+	margin-bottom: 2px;
+}
+.xans-product-detail .infoArea td > span > ul.discountMember > li {
+	float: left; position: relative;
+}
+.xans-product-detail .infoArea td ul.discountMember li a {
+	margin: 0px 4px 4px 0px; display: block;
+}
+.xans-product-detail .infoArea td ul li .discount_layer {
+	background: rgb(255, 255, 255); padding: 15px; border: 1px solid rgb(86, 89, 96); border-image: none; left: -140px; top: 19px; overflow: auto; margin-top: 7px; position: absolute; z-index: 10; max-height: 400px; min-width: 300px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer h3 {
+	background: url("http://img.echosting.cafe24.com/skin/admin_ko_KR/product/ico_layer_title.gif") no-repeat 0px 50%; margin: 0px 0px 8px; padding: 0px 10px; font-size: 12px; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.xans-product-detail .infoArea td ul li .discount_layer p {
+	padding: 0px 10px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer ul {
+	padding: 0px 10px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer p strong {
+	color: rgb(0, 136, 212);
+}
+.xans-product-detail .infoArea td ul li .discount_layer ul li {
+	background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/board/ico_function.gif") no-repeat 0px 5px; padding: 0px 0px 5px 5px; line-height: 1.4em; float: none;
+}
+.xans-product-detail .infoArea td ul li .discount_layer thead th {
+	padding: 0px; height: 0px; line-height: 0; font-size: 0px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer tbody {
+	border: 1px solid rgb(215, 213, 214); border-image: none;
+}
+.xans-product-detail .infoArea td ul li .discount_layer th {
+	background: rgb(251, 249, 250); padding: 5px 0px 5px 15px; color: rgb(54, 54, 54); border-right-color: rgb(232, 232, 232); border-right-width: 1px; border-right-style: solid;
+}
+.xans-product-detail .infoArea td ul li .discount_layer.member_rating th {
+	width: 50px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer th {
+	height: 15px; border-bottom-color: rgb(232, 232, 232); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xans-product-detail .infoArea td ul li .discount_layer td {
+	height: 15px; border-bottom-color: rgb(232, 232, 232); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xans-product-detail .infoArea td ul li .discount_layer td {
+	padding: 5px 15px 5px 5px; text-align: right;
+}
+.xans-product-detail .infoArea td ul li .discount_layer tr:last-of-type th {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.xans-product-detail .infoArea td ul li .discount_layer tr:last-of-type td {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.xans-product-detail .infoArea td ul li .discount_layer .close {
+	border: 0px currentColor; border-image: none; top: 15px; right: 15px; position: absolute;
+}
+.xans-product-detail .infoArea td ul li .discount_layer h4 {
+	margin: 10px 10px 3px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer p.info {
+	margin: 5px 0px 0px;
+}
+.xans-product-detail .infoArea td ul li .discount_layer p.bullet {
+	background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/board/ico_function.gif") no-repeat 0px 5px; margin: 12px 10px 0px; padding: 0px 0px 0px 5px;
+}
+.xans-product-detail .infoArea td ul li .arrow {
+	left: 46%; top: 22px; position: absolute; z-index: 20;
+}
+.xans-coupon-productdetail {
+	padding: 0px; overflow: hidden; clear: both;
+}
+.xans-coupon-productdetail .couponArea {
+	overflow: hidden; clear: both;
+}
+.xans-coupon-productdetail .couponArea .coupon {
+	margin: 0pt auto;
+}
+.xans-coupon-productdetail .couponArea .coupon li {
+	
+}
+.xans-coupon-productdetail .couponArea .zone li {
+	height: 180px;
+}
+.xans-coupon-productdetail .couponArea .coupon li div {
+	
+}
+.xans-coupon-productdetail .couponArea .coupon .name {
+	
+}
+.xans-coupon-productdetail .couponArea .coupon .sale {
+	padding: 15px 0px; line-height: normal; letter-spacing: -1px; font-size: 40px; font-weight: bold;
+}
+.xans-coupon-productdetail .couponArea .coupon .date {
+	left: 0px; top: 135px; width: 105px; color: rgb(255, 255, 255); font-size: 0.9em; position: absolute;
+}
+.xans-coupon-productdetail .couponArea .coupon .btn {
+	width: 100%; text-align: right;
+}
+.xans-coupon-productdetail .couponArea .coupon .chkBtn {
+	left: 15px; top: 15px; position: absolute;
+}
+.xans-coupon-productdetail .coupon .imgCoupon {
+	
+}
+.xans-coupon-productdetail .coupon .imgCoupon .name {
+	top: -5000px; position: absolute;
+}
+.xans-coupon-productdetail .coupon .imgCoupon .sale {
+	top: -5000px; position: absolute;
+}
+.xans-coupon-productdetail .coupon .imgCoupon .date {
+	top: -5000px; position: absolute;
+}
+.xans-coupon-productdetail .titleArea {
+	margin: 17px 0px 30px; height: 21px; border-bottom-color: rgb(222, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; position: relative; -ms-zoom: 1;
+}
+.xans-coupon-productdetail .titleArea::after {
+	clear: both; display: block; content: "";
+}
+.xans-coupon-productdetail .titleArea h3 {
+	margin: 0px; padding: 0px 5px 0px 0px; height: 21px; color: rgb(39, 40, 35); font-size: 16px; border-bottom-color: rgb(39, 40, 35); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.xans-coupon-productdetail .titleArea p.btn {
+	margin: 0px; padding: 0px; top: -2px; right: 0px; position: absolute;
+}
+#dCouponDetail {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(125, 124, 139); border-image: none; width: 372px; overflow: hidden; position: relative; box-shadow: 5px 5px 5px #d3d3d3; -moz-box-shadow: 5px 5px 5px #d3d3d3; -webkit-box-shadow: 5px 5px 5px #d3d3d3;
+}
+#dCouponDetail h3 {
+	padding: 0px 0px 10px; color: rgb(52, 167, 179); float: left;
+}
+#dCouponDetail ul {
+	background: rgb(241, 241, 241); margin: 10px 0px; padding: 10px; clear: both;
+}
+#dCouponDetail ul li {
+	line-height: 18px; font-size: 11px;
+}
+#dCouponDetail img {
+	float: right;
+}
+.couponArea {
+	clear: both;
+}
+.couponArea .coupon li {
+	width: 200px; height: 22px; text-align: center; margin-right: 2px; margin-bottom: 2px; float: left; display: block;
+}
+.couponArea .coupon li p.name {
+	border: 1px solid rgb(221, 221, 221); border-image: none; width: 200px; height: 22px; text-align: center; color: rgb(0, 0, 0); line-height: 25px; font-family: "Levenim MT","arial","µ¸¿ò"; font-size: 11px; font-weight: bold;
+}
+.xans-coupon-productdetail .couponArea {
+	margin: 30px 0px 0px -12px; overflow: hidden; clear: both;
+}
+.xans-coupon-productdetail .couponArea .coupon {
+	margin: 0pt auto; width: 372px;
+}
+.xans-coupon-productdetail .couponArea .coupon li {
+	margin: 0px 0px 10px 12px; width: 372px; text-align: center; float: left; position: relative; min-height: 200px;
+}
+.xans-coupon-productdetail .couponArea .zone li {
+	height: 180px;
+}
+.xans-coupon-productdetail .couponArea .coupon li div {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/product/bg_coupon1.jpg") no-repeat 50% 50%; margin: 0px 0px 10px; height: 144px; cursor: pointer;
+}
+.xans-coupon-productdetail .couponArea .coupon .name {
+	padding: 10px 0px;
+}
+.xans-coupon-productdetail .couponArea .coupon .sale {
+	padding: 15px 0px; line-height: normal; letter-spacing: -1px; font-size: 40px; font-weight: bold;
+}
+.xans-coupon-productdetail .couponArea .coupon .date {
+	left: 0px; top: 135px; width: 100%; color: rgb(255, 255, 255); font-size: 0.9em; position: absolute;
+}
+.xans-coupon-productdetail .couponArea .coupon .btn {
+	width: 100%; text-align: center;
+}
+.xans-coupon-productdetail .couponArea .coupon .chkBtn {
+	left: 15px; top: 15px; position: absolute;
+}
+.xans-coupon-productdetail .coupon .imgCoupon {
+	
+}
+.xans-coupon-productdetail .coupon .imgCoupon .name {
+	top: -5000px; position: absolute;
+}
+.xans-coupon-productdetail .coupon .imgCoupon .sale {
+	top: -5000px; position: absolute;
+}
+.xans-coupon-productdetail .coupon .imgCoupon .date {
+	top: -5000px; position: absolute;
+}
+.xans-coupon-productdetail .titleArea {
+	margin: 17px 0px 30px; height: 21px; border-bottom-color: rgb(222, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; position: relative; -ms-zoom: 1;
+}
+.xans-coupon-productdetail .titleArea::after {
+	clear: both; display: block; content: "";
+}
+.xans-coupon-productdetail .titleArea h3 {
+	margin: 0px; padding: 0px 5px 0px 0px; height: 21px; color: rgb(39, 40, 35); font-size: 16px; border-bottom-color: rgb(39, 40, 35); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.xans-coupon-productdetail .titleArea p.btn {
+	margin: 0px; padding: 0px; top: -2px; right: 0px; position: absolute;
+}
+#dCouponDetail {
+	background: rgb(255, 255, 255); padding: 10px; border: 1px solid rgb(125, 124, 139); border-image: none; width: 372px; overflow: hidden; position: relative; box-shadow: 5px 5px 5px #d3d3d3; -moz-box-shadow: 5px 5px 5px #d3d3d3; -webkit-box-shadow: 5px 5px 5px #d3d3d3;
+}
+#dCouponDetail h3 {
+	padding: 0px 0px 10px; color: rgb(52, 167, 179); float: left;
+}
+#dCouponDetail ul {
+	background: rgb(241, 241, 241); margin: 10px 0px; padding: 10px; clear: both;
+}
+#dCouponDetail ul li {
+	line-height: 18px; font-size: 11px;
+}
+#dCouponDetail img {
+	float: right;
+}
+.xans-srlite-display {
+	padding: 20px 0px 19px; width: 100%; position: relative;
+}
+.xans-srlite-display h2 {
+	margin: 0px 0px 19px 27px; font-size: 16px;
+}
+.xans-srlite-display .srlite-list {
+	margin: 0px 0px 0px 24px; overflow: hidden; display: none;
+}
+.xans-srlite-display .srlite-list ul {
+	margin: 0px 0px 0px -7px; height: 400px;
+}
+.xans-srlite-display .srlite-list li {
+	padding: 10px 7px 5px 0px; width: 180px; text-align: center; color: rgb(83, 83, 83); line-height: 16px; font-size: 11px; vertical-align: top; float: left; -ms-word-break: break-all;
+}
+.xans-srlite-display .srlite-list a img {
+	border: 1px solid rgb(231, 231, 231); border-image: none; width: 164px;
+}
+.xans-srlite-display .srlite-list .name {
+	margin: 6px 0px 0px; color: rgb(83, 83, 83); display: block;
+}
+.xans-srlite-display .srlite-list .price {
+	color: rgb(210, 61, 2); font-weight: normal;
+}
+.xans-srlite-display .srlite-remote {
+	left: 0px; top: 55px; width: 100%; position: absolute;
+}
+.xans-srlite-display .srlite-remote button {
+	top: 0px; width: 20px; height: 204px; text-indent: 100%; overflow: hidden; display: block; white-space: nowrap; position: absolute; background-image: url("http://img.echosting.cafe24.com/apps/recommend-lite/skin2/sfix_btn.png"); background-repeat: no-repeat; background-color: transparent;
+}
+.xans-srlite-display .srlite-remote .prev {
+	background-position: 0px 50%; left: 0px;
+}
+.xans-srlite-display .srlite-remote .next {
+	background-position: -30px 50%; right: 0px;
+}
+.xans-product-additional {
+	color: rgb(139, 139, 140); line-height: 1.8em; clear: both;
+}
+.xans-product-additional h3 {
+	margin: 30px 0px 0px; color: rgb(32, 32, 32); float: left;
+}
+.xans-product-additional .desc {
+	color: rgb(111, 110, 109); padding-left: 5px; font-size: 9pt; border-top-color: rgb(45, 45, 45); border-top-width: 2px; border-top-style: solid;
+}
+.xans-product-additional .line {
+	border-top-color: rgb(45, 45, 45); border-top-width: 2px; border-top-style: solid; display: block;
+}
+.xans-product-additional .link {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/product/bg_productDetail.gif") no-repeat right 0px; margin: 30px 0px; overflow: hidden; -ms-zoom: 1;
+}
+.xans-product-additional .link ul {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/product/bg_productDetail.gif") no-repeat 0px 0px; padding: 5px 0px 0px 5px; height: 25px; float: left;
+}
+.xans-product-additional .link ul li {
+	margin: 0px -1px 0px 0px; line-height: 1.4em; float: left;
+}
+.xans-product-additional .link ul li.on {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/product/bg_productDetail_on.gif") no-repeat 0px 0px; padding-left: 13px;
+}
+.xans-product-additional .link ul li a {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/product/bg_productDetail_li.gif") no-repeat right 1px; padding: 4px 13px 0px; height: 21px; color: rgb(255, 255, 255); font-size: 11px; display: block;
+}
+.xans-product-additional .link ul li.last a {
+	background: none;
+}
+.xans-product-additional .link ul li.on a {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/product/bg_productDetail_on.gif") no-repeat right 0px; padding: 4px 13px 0px 0px; color: rgb(0, 0, 0); text-decoration: underline;
+}
+.xans-product-additional .boardBtn {
+	padding: 20px 0px 0px; overflow: hidden; float: right; -ms-zoom: 1;
+}
+.xans-product-additional .boardBtn a {
+	margin: 0px 3px; padding: 5px 15px 2px; border: 1px solid currentColor; border-image: none; font-size: 12px; float: right;
+}
+.xans-product-additional table.boardList {
+	margin: 15px 0px 0px; font-size: 11px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xans-product-additional table.boardList th {
+	padding: 4px 0px; text-align: center; color: rgb(32, 32, 32); font-weight: normal; border-top-color: rgb(51, 51, 51); border-bottom-color: rgb(51, 51, 51); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.xans-product-additional table.boardList td {
+	padding: 6px 0px; text-align: center; line-height: 1.4em; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xans-product-additional table.boardList .number {
+	width: 52px;
+}
+.xans-product-additional table.boardList .check {
+	width: 52px;
+}
+.xans-product-additional table.boardList .category {
+	width: 104px;
+}
+.xans-product-additional table.boardList .subject {
+	
+}
+.xans-product-additional table.boardList .subject img {
+	margin: 0px 1px; vertical-align: middle;
+}
+.xans-product-additional table.boardList .name {
+	width: 84px;
+}
+.xans-product-additional table.boardList .date {
+	width: 74px;
+}
+.xans-product-additional table.boardList .hit {
+	width: 45px;
+}
+.xans-product-additional table.boardList .check {
+	width: 35px;
+}
+.xans-product-additional table.boardList .grade {
+	width: 60px;
+}
+.xans-product-additional table.boardList .price {
+	width: 70px;
+}
+.xans-product-additional table.boardList .mileage {
+	width: 70px;
+}
+.xans-product-additional table.boardList .option {
+	width: 100px;
+}
+.xans-product-additional table.boardList td.option {
+	text-align: left;
+}
+.xans-product-additional table.boardList .option ul {
+	margin: 0px; padding: 0px;
+}
+.xans-product-additional table.boardList .option li {
+	padding: 0px; width: auto; float: none;
+}
+.xans-product-additional table.boardList .option input {
+	border: 1px solid rgb(188, 188, 188); border-image: none;
+}
+.xans-product-additional table.boardList .count {
+	width: 50px;
+}
+.xans-product-additional table.boardList td.count {
+	text-align: left;
+}
+.xans-product-additional table.boardList .count p {
+	position: relative;
+}
+.xans-product-additional table.boardList .count input {
+	border: 1px solid rgb(188, 188, 188); border-image: none; width: 30px; height: 18px;
+}
+.xans-product-additional table.boardList .count .RelationQuantityUp {
+	left: 32px; top: 0px; position: absolute;
+}
+.xans-product-additional table.boardList .count .RelationQuantityDown {
+	left: 32px; bottom: 0px; position: absolute;
+}
+.xans-product-additional table.boardList td p.btnArea {
+	padding: 0px 0px 5px; text-align: right;
+}
+.xans-product-additional table.boardList .thumbImg {
+	width: 70px; float: left;
+}
+.xans-product-additional table.boardList .thumbImg img {
+	width: 64px;
+}
+.xans-product-additional table.boardList .first td {
+	background: none;
+}
+.xans-product-additional table.boardList td.subject {
+	text-align: left;
+}
+.xans-product-additional table.boardList tr.cont td {
+	text-align: left;
+}
+.xans-product-additional table.boardList a {
+	color: rgb(143, 143, 143);
+}
+.xans-product-additional table.boardList a:hover {
+	color: rgb(143, 143, 143);
+}
+.xans-product-relation .btnArea {
+	margin: 10px 0px 20px; text-align: right; overflow: hidden;
+}
+.xans-product-relation .btnArea img {
+	padding: 0px 1px 0px 0px; float: left; cursor: pointer;
+}
+.xans-product-relation .btnArea p.btnLeft {
+	float: left;
+}
+.xans-product-relation .btnArea p.btnRight {
+	float: right;
+}
+.xans-product-relation .btnArea p.btnRight img {
+	padding: 0px 0px 0px 1px;
+}
+.xans-product-additional .boardReplyList {
+	background: rgb(238, 239, 242); margin: 5px; width: 746px;
+}
+.xans-product-additional .boardReplyList thead {
+	display: none;
+}
+.xans-product-additional .boardReplyList tbody tr td {
+	background: none; padding: 3px 0px;
+}
+.xans-product-additional .boardReplyList tbody tr td.name {
+	width: 84px; text-align: center;
+}
+.xans-product-additional .boardReplyList tbody tr td.subject {
+	text-align: left;
+}
+.xans-product-additional .boardReplyList tbody tr td.date {
+	width: 84px; text-align: center;
+}
+.xans-product-additional .boardReplyList tbody tr td.grade {
+	width: 70px; text-align: center;
+}
+.xans-product-additional #qnaArea .nodata {
+	margin: 10px 0px 0px; padding: 9px 0px 7px; text-align: center; border-top-color: rgb(222, 223, 229); border-bottom-color: rgb(222, 223, 229); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.xans-product-additional #prdReview .nodata {
+	margin: 10px 0px 0px; padding: 9px 0px 7px; text-align: center; border-top-color: rgb(222, 223, 229); border-bottom-color: rgb(222, 223, 229); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.contArea {
+	padding: 0px 10px 10px; text-align: left;
+}
+#prdDetail h3 {
+	float: none; display: block;
+}
+#prdRelated h3 {
+	width: 100%; height: 12px; text-align: left; margin-bottom: 50px; border-bottom-color: rgb(148, 148, 148); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.xans-product-relationlist {
+	
+}
+.xans-product-relationlist ul {
+	clear: both; margin-left: 30px; -ms-zoom: 1;
+}
+.xans-product-relationlist ul::after {
+	clear: both; display: block; content: "";
+}
+.xans-product-relationlist ul li {
+	margin: 0px 0px 13px 15px; width: 190px; line-height: 1.6em; overflow: hidden; float: left;
+}
+.xans-product-relationlist ul .prdImg {
+	text-align: center; display: block;
+}
+.xans-product-relationlist ul .prdImg img {
+	padding: 2px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 184px; display: block;
+}
+.xans-product-relationlist ul .zoom {
+	padding: 7px 0px 0px; float: right; cursor: pointer;
+}
+.xans-product-relationlist ul .name {
+	padding: 4px 0px; width: 190px; line-height: 16px; float: left;
+}
+.xans-product-relationlist ul .icon {
+	clear: both; display: block;
+}
+.xans-product-relationlist ul .price {
+	clear: both; display: block;
+}
+.xans-product-relationlist ul .mileage {
+	clear: both; display: block;
+}
+.xans-product-relationlist ul .mileage img {
+	vertical-align: middle;
+}
+.xans-product-relationlist ul .btns {
+	overflow: hidden; -ms-zoom: 1;
+}
+.xans-product-relationlist ul .btns img {
+	margin: 0px 4px 0px 0px; cursor: pointer;
+}
+.xans-product-relationlist ul .btns .bag {
+	padding: 7px 10px 0px 0px; float: left;
+}
+.xans-product-relationlist ul .btns .option {
+	padding: 7px 0px 0px; float: left;
+}
+.xans-product-relationlist ul .custom {
+	text-decoration: line-through;
+}
+.xans-product-relationlist ul .manu {
+	display: block;
+}
+.xans-product-relationlist ul .btn {
+	text-align: center; display: block;
+}
+.xans-product-additional .contArea {
+	white-space: pre-wrap; -ms-word-break: break-all;
+}
+.xans-product-additional .contArea input {
+	background: rgb(255, 255, 255); padding: 1px 0px 2px 4px; border: 1px solid rgb(188, 188, 188); border-image: none; color: rgb(32, 32, 32);
+}
+.xans-product-additional .memoCont input {
+	background: rgb(255, 255, 255); padding: 1px 0px 2px 4px; border: 1px solid rgb(188, 188, 188); border-image: none; color: rgb(32, 32, 32);
+}
+.xans-product-additional .memoCont textarea {
+	background: rgb(255, 255, 255); padding: 1px 0px 2px 4px; border: 1px solid rgb(188, 188, 188); border-image: none; color: rgb(32, 32, 32);
+}
+.xans-product-additional .memoCont {
+	background: rgb(245, 246, 236); margin: 20px 0px; padding: 15px 20px; border: 1px solid rgb(210, 210, 207); border-image: none; text-align: left; color: rgb(143, 143, 143); overflow: hidden; font-size: 0.9em;
+}
+.xans-product-additional .memoCont span.nameArea {
+	padding: 0px 0px 5px; display: block;
+}
+.xans-product-additional .memoCont p.user {
+	color: rgb(32, 32, 32);
+}
+.xans-product-additional .memoCont textarea {
+	margin: 0px 3px 0px 0px; width: 632px; height: 45px;
+}
+.xans-product-additional .memoCont p.btn {
+	padding: 0px 0px 0px 20px; color: rgb(32, 32, 32); float: right;
+}
+.xans-product-additional .memoCont p.btn a {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/board/bg_btnLine.gif") no-repeat right; padding: 0px 7px 0px 0px; color: rgb(32, 32, 32);
+}
+.xans-product-additional .memoCont p.btn a:hover {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/board/bg_btnLine.gif") no-repeat right; padding: 0px 7px 0px 0px; color: rgb(32, 32, 32);
+}
+.xans-product-additional .memoCont p.btn a.last {
+	background: none !important; padding: 0px;
+}
+.xans-product-additional .memoCont .writer {
+	overflow: hidden; -ms-zoom: 1;
+}
+.xans-product-additional .memoCont p.date {
+	float: right;
+}
+.xans-product-additional .memoCont p.memo {
+	padding: 10px 0px 0px; clear: both;
+}
+.xans-product-additional .reply p.memo {
+	padding: 10px 0px 0px 28px;
+}
+.xans-product-additional .rating {
+	padding: 2px 0px 0px; float: left;
+}
+.xans-product-additional .text {
+	padding: 2px 0px 0px; float: right;
+}
+.xans-product-additional .captcha {
+	clear: both;
+}
+.xans-product-reviewpaging {
+	text-align: center; clear: both; font-family: "Kalinga","Tw Cen MT","arial"; font-size: 13px;
+}
+.xans-product-reviewpaging {
+	padding: 13px 0px;
+}
+.xans-product-reviewpaging {
+	margin: 20px 0px 0px; text-align: center;
+}
+.xans-product-reviewpaging p {
+	display: inline;
+}
+.xans-product-reviewpaging ol {
+	display: inline;
+}
+.xans-product-reviewpaging li {
+	display: inline;
+}
+.xans-product-reviewpaging img {
+	vertical-align: middle;
+}
+.xans-product-reviewpaging p {
+	margin-right: -4px;
+}
+.xans-product-reviewpaging ol {
+	margin: 0px 7px;
+}
+.xans-product-reviewpaging li {
+	margin: 0px 7px 0px 0px; padding: 0px 0px 0px 9px;
+}
+.xans-product-reviewpaging li:first-child {
+	background: none;
+}
+.xans-product-reviewpaging li strong {
+	color: rgb(0, 0, 0);
+}
+.xans-product-reviewpaging li a {
+	color: rgb(160, 160, 160);
+}
+.xans-product-reviewpaging li a:hover {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.xans-product-reviewpaging li a.nolink {
+	cursor: default;
+}
+.xans-product-qnapaging {
+	text-align: center; clear: both; font-family: "Kalinga","Tw Cen MT","arial"; font-size: 13px;
+}
+.xans-product-qnapaging {
+	padding: 13px 0px;
+}
+.xans-product-qnapaging {
+	margin: 20px 0px 0px; text-align: center;
+}
+.xans-product-qnapaging p {
+	display: inline;
+}
+.xans-product-qnapaging ol {
+	display: inline;
+}
+.xans-product-qnapaging li {
+	display: inline;
+}
+.xans-product-qnapaging img {
+	vertical-align: middle;
+}
+.xans-product-qnapaging p {
+	margin-right: -4px;
+}
+.xans-product-qnapaging ol {
+	margin: 0px 7px;
+}
+.xans-product-qnapaging li {
+	margin: 0px 7px 0px 0px; padding: 0px 0px 0px 9px;
+}
+.xans-product-qnapaging li:first-child {
+	background: none;
+}
+.xans-product-qnapaging li strong {
+	color: rgb(0, 0, 0);
+}
+.xans-product-qnapaging li a {
+	color: rgb(160, 160, 160);
+}
+.xans-product-qnapaging li a:hover {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.xans-product-qnapaging li a.nolink {
+	cursor: default;
+}
+#prdReview {
+	padding-top: 150px; margin-top: -150px;
+}
+#prdQnA {
+	padding-top: 150px; margin-top: -150px;
+}
+html {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+div {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+code {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+img {
+	margin: 0px; padding: 0px;
+}
+html {
+	width: 100%; height: 100%;
+}
+body {
+	background: rgb(255, 255, 255); font: 11px/normal Arial, "µ¸¿ò", Dotum, AppleGothic, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+code {
+	background: rgb(255, 255, 255); font: 11px/normal Arial, "µ¸¿ò", Dotum, AppleGothic, sans-serif; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+li {
+	list-style: none;
+}
+img {
+	border: currentColor; border-image: none; vertical-align: top;
+}
+fieldset {
+	border: currentColor; border-image: none; vertical-align: top;
+}
+input {
+	color: rgb(118, 118, 118); font-size: 100%; vertical-align: middle;
+}
+select {
+	color: rgb(118, 118, 118); font-size: 100%; vertical-align: middle;
+}
+textarea {
+	color: rgb(118, 118, 118); font-size: 100%; vertical-align: middle;
+}
+hr.layout {
+	display: none;
+}
+a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:link {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+table {
+	border: 0px currentColor; border-image: none; width: 100%; border-collapse: collapse; border-spacing: 0;
+}
+th {
+	border: 0px currentColor; border-image: none; vertical-align: top;
+}
+td {
+	border: 0px currentColor; border-image: none; vertical-align: top;
+}
+legend {
+	width: 0px; height: 0px; text-indent: -9999em; display: block;
+}
+caption {
+	left: -1000px; top: -1000px; width: 0px; height: 0px; display: none; visibility: hidden; position: absolute;
+}
+button {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-image: none; overflow: visible; cursor: pointer;
+}
+.objHidden {
+	left: -1000px; top: -1000px; width: 0px; height: 0px; visibility: hidden; position: absolute;
+}
+table tr.radioType input {
+	background: none !important; margin: 0px 3px 0px 0px !important; border: currentColor !important; border-image: none !important; width: auto !important; height: auto !important; vertical-align: middle !important;
+}
+span.noBorder input {
+	background: none !important; margin: 0px 3px 0px 0px !important; border: currentColor !important; border-image: none !important; width: auto !important; height: auto !important; vertical-align: middle !important;
+}
+#content_CONTAINER td {
+	width: auto !important;
+}
+table.nneditor-table {
+	width: auto !important;
+}
+#progressPaybarBackground {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 99;
+}
+#progressPaybarView {
+	left: 20px; top: 160px; width: 471px; font-size: 12px; position: absolute; z-index: 100;
+}
+#progressPaybarView .box {
+	background: url("http://img.cafe24.com/images/ec_hosting/popup/layer_guide/bg_layer_box1.gif") no-repeat 0px 0px; height: 180px;
+}
+#progressPaybarView .box .graph {
+	padding: 15px 0px 0px; text-align: center;
+}
+#progressPaybarView .box .graph span {
+	margin: 20px 0px; text-align: center; display: block;
+}
+#progressPaybarView .box .txt {
+	padding: 15px 0px 0px; text-align: center; color: rgb(85, 85, 85);
+}
+div.layerProgress {
+	opacity: 0.4; background-color: rgb(153, 153, 153); -moz-opacity: 0.4;
+}
+#accNav {
+	left: 0px; top: 0px; width: 100%; height: 0px; position: absolute; z-index: 100;
+}
+#accNav p {
+	height: 0px;
+}
+#accNav ul {
+	height: 0px;
+}
+#accNav ul li {
+	height: 0px;
+}
+#accNav p a {
+	left: 0px; top: 0px; width: 1px; height: 1px; text-align: center; color: rgb(0, 0, 0); overflow: hidden; margin-bottom: -1px; margin-left: -1px; display: block; white-space: nowrap; position: absolute;
+}
+#accNav p a:focus {
+	background: rgb(196, 18, 47); padding: 10px 0px; width: 100%; height: auto; color: rgb(255, 255, 255); z-index: 100;
+}
+#accNav p a:hover {
+	background: rgb(196, 18, 47); padding: 10px 0px; width: 100%; height: auto; color: rgb(255, 255, 255); z-index: 100;
+}
+#accNav p a:active {
+	background: rgb(196, 18, 47); padding: 10px 0px; width: 100%; height: auto; color: rgb(255, 255, 255); z-index: 100;
+}
+.clearfix {
+	-ms-zoom: 1;
+}
+.clearfix::after {
+	height: 0px; overflow: hidden; clear: both; display: block; visibility: hidden; content: "";
+}
+.displaynone {
+	display: none;
+}
+* {
+	margin: 0px; padding: 0px;
+}
+html {
+	-ms-overflow-y: scroll;
+}
+body {
+	text-align: center;
+}
+hr.layout {
+	display: none;
+}
+#wrap {
+	margin: 0px auto;
+}
+#wrap::after {
+	clear: both; display: block; content: "";
+}
+#header {
+	margin: 0px auto; text-align: left;
+}
+#header::after {
+	clear: both; display: block; content: "";
+}
+.inner_wrap {
+	margin: 0px auto;
+}
+.inner_wrap::after {
+	clear: both; display: block; -ms-zoom: 1; content: "";
+}
+#container {
+	margin: 0px auto; text-align: left; vertical-align: top; _display: inline-block;
+}
+#container::after {
+	clear: both; display: block; content: "";
+}
+#sider {
+	float: left;
+}
+#sider::after {
+	clear: both; display: block; content: "";
+}
+#contents {
+	text-align: left; float: left;
+}
+#contents::after {
+	clear: both; display: block; content: "";
+}
+#expand {
+	text-align: left; float: left;
+}
+#expand::after {
+	clear: both; display: block; content: "";
+}
+#quickL {
+	position: absolute;
+}
+#quickR {
+	position: absolute;
+}
+#footer {
+	margin: 0px auto 40px; text-align: left;
+}
+#footer::after {
+	clear: both; display: block; content: "";
+}
+body {
+	font-size: 11px;
+}
+#wrap {
+	width: 100%; height: 100%; position: relative;
+}
+#header {
+	width: 100%; text-align: center;
+}
+#header .inner_wrap {
+	margin: 0px auto; height: 100%;
+}
+#quickL {
+	left: 0px; top: 220px; width: 170px; min-height: 320px;
+}
+#quickR {
+	top: 0px; width: 170px; right: 0px; margin-top: 450px; min-height: 320px;
+}
+#container {
+	margin: 10px auto 30px; width: 1348px; height: 100%; _width: 1690px; _height: auto;
+}
+#sider {
+	width: 260px; height: 100%; display: none;
+}
+#contents {
+	height: 100%; padding-right: 95px; _width: 1690px; _height: auto;
+}
+#contents .inner_wrap {
+	height: 100%;
+}
+#footer {
+	width: 1348px; text-align: center; _width: 1688px;
+}
+#footer .inner_wrap {
+	margin: 0px auto; width: 1348px; height: 100%;
+}
+#header h1.logo {
+	margin: 38px auto 28px; text-align: center;
+}
+#header .inner_wrap .gnb {
+	height: 30px;
+}
+#header .inner_wrap .gnb::after {
+	clear: both; display: block; content: "";
+}
+#header .inner_wrap .gnb ul.navi {
+	height: 30px; float: left;
+}
+#header .inner_wrap .gnb ul.navi li {
+	padding: 10px 0px 0px 17px; float: left; display: inline;
+}
+#header .inner_wrap .gnb ul.navi li:first-child {
+	padding-left: 0px;
+}
+#header .inner_wrap .gnb li a {
+	display: block;
+}
+#header .inner_wrap .gnb .search {
+	margin-right: 1px; float: right;
+}
+.headerFix {
+	background: rgb(255, 255, 255); position: fixed; z-index: 20000;
+}
+.headerFix .top {
+	position: relative;
+}
+.headerFix .top ul {
+	left: 0px; top: 0px; font-size: 0px; position: absolute;
+}
+.headerFix .top ul li {
+	margin: 0px 3px 0px 0px; display: inline-block;
+}
+.headerFix .top h1 {
+	
+}
+.headerFix_detail {
+	background: rgb(255, 255, 255); z-index: 20000;
+}
+.headerFix_detail .top {
+	position: relative;
+}
+.headerFix_detail .top ul {
+	left: 0px; top: 0px; font-size: 0px; position: absolute;
+}
+.headerFix_detail .top ul li {
+	margin: 0px 3px 0px 0px; display: inline-block;
+}
+.headerFix_detail .top h1 {
+	
+}
+#menu {
+	width: 1348px; height: 30px; padding-top: 0px; padding-bottom: 10px; margin-top: 0px; position: relative; z-index: 20000;
+}
+#menu ul {
+	list-style: none; margin: 0px; padding: 0px; left: -9999px; top: 0px; position: absolute;
+}
+#menu li {
+	list-style: none; margin: 0px; padding: 0px; width: 322px;
+}
+#menu ul.level1 {
+	left: 0px; top: 0px; position: absolute;
+}
+#menu ul.level1 > li {
+	margin: 0px; padding: 0px 0px 0px 152px; height: 35px; float: left; display: inline;
+}
+#menu ul.level1 > li:first-child {
+	padding-left: 0px;
+}
+#menu a {
+	text-decoration: none; display: block;
+}
+#menu ul li:hover > ul {
+	background: rgb(0, 0, 0); margin: 0px; padding: 20px 0px; width: 322px; visibility: visible;
+}
+#menu ul .level2 > li {
+	width: 322px;
+}
+#menu ul .level3 > li {
+	width: 322px;
+}
+#menu ul .level2 > li a {
+	margin: 0px 15px 0px 9px; width: 298px; height: 20px; text-align: left; line-height: 20px; border-top-color: rgb(85, 85, 85); border-top-width: 1px; border-top-style: dotted; display: block;
+}
+#menu ul .level3 > li a {
+	margin: 0px 15px 0px 9px; width: 298px; height: 20px; text-align: left; line-height: 20px; border-top-color: rgb(85, 85, 85); border-top-width: 1px; border-top-style: dotted; display: block;
+}
+#menu ul li:hover > ul.menu01 {
+	margin: 0px; left: 0px; top: -5px; position: relative;
+}
+#menu ul li:hover > ul.menu02 {
+	margin: 0px; left: 0px; top: -5px; position: relative;
+}
+#menu ul li:hover > ul.menu03 {
+	margin: 0px; left: 0px; top: -5px; position: relative;
+}
+#menu ul li:hover ul li:hover .menu01_04 {
+	left: 322px; top: 64px;
+}
+#menu ul li:hover ul li:hover .menu01_05 {
+	left: 322px; top: 85px;
+}
+#menu ul li:hover ul li:hover .menu01_06 {
+	left: 322px; top: 105px;
+}
+#menu ul li:hover ul li:hover .menu01_07 {
+	left: 322px; top: 126px;
+}
+#menu ul li:hover ul li:hover .menu01_08 {
+	left: 322px; top: 147px;
+}
+#menu ul li:hover ul li:hover .menu01_09 {
+	left: 322px; top: 169px;
+}
+#menu ul li:hover ul li:hover .menu01_10 {
+	left: 322px; top: 189px;
+}
+#menu ul li:hover ul li:hover .menu01_12 {
+	left: 322px; top: 232px;
+}
+#menu ul li:hover ul li:hover .menu01_15 {
+	left: 322px; top: 334px;
+}
+#menu ul li:hover ul li:hover .menu01_13 {
+	left: 322px; top: 253px;
+}
+#menu ul li:hover ul li:hover .menu03_01 {
+	left: 322px; top: 0px;
+}
+#menu ul li:hover ul li:hover .menu03_02 {
+	left: 322px; top: 21px;
+}
+#menu a:hover ul {
+	visibility: visible;
+}
+#menu a:hover a:hover ul {
+	visibility: visible;
+}
+#menu a:hover a:hover a:hover ul {
+	visibility: visible;
+}
+#menu a:hover ul ul {
+	left: -9999px;
+}
+#menu a:hover a:hover ul ul {
+	left: -9999px;
+}
+#sider .sd_spot_sidetop {
+	margin-bottom: 30px;
+}
+#sider .snb {
+	width: 106px; height: 100%; overflow: hidden; margin-bottom: 30px; margin-left: 4px; float: left;
+}
+#sider .bnb {
+	width: 110px; margin-right: 4px; margin-bottom: 20px; float: right;
+}
+#sider .bnb h2 {
+	margin: 0px 0px 23px;
+}
+#sider .bnb ul {
+	margin: 0px;
+}
+#sider .bnb li {
+	height: 15px; margin-bottom: 5px;
+}
+#sider .bnb li a {
+	line-height: 15px; display: inline-block;
+}
+#sider .bnb li a:hover {
+	
+}
+#sider .bnb li.on {
+	position: relative; z-index: 91;
+}
+#sider .bnb li.on > a {
+	
+}
+#sider .bnb li img {
+	margin: 0px; display: block;
+}
+#sider .bankinfo {
+	width: 110px; margin-top: 30px; margin-right: 4px; margin-bottom: 30px; float: right; display: block;
+}
+#sider .csinfo {
+	width: 110px; margin-right: 4px; margin-bottom: 15px; float: right; display: block;
+}
+#sider .bankinfo img {
+	display: block;
+}
+#sider .csinfo img {
+	display: block;
+}
+#sider .delivery {
+	width: 110px; margin-right: 4px; margin-bottom: 18px; float: right; display: block;
+}
+#sider .favorite {
+	width: 110px; margin-right: 4px; margin-bottom: 34px; float: right; display: block;
+}
+#sider .best50_prd {
+	margin-top: 35px; float: left; display: block; position: relative;
+}
+#sider .best50_prd::after {
+	clear: both; display: block; content: "";
+}
+#sider .line {
+	background: rgb(221, 221, 221); height: 1px; clear: both; display: block;
+}
+#sider .ad_spot_side {
+	margin-top: 55px; margin-bottom: 75px;
+}
+#sider .familylink {
+	clear: both;
+}
+#sider .familylink h2 {
+	margin-bottom: 25px; margin-left: 4px;
+}
+#sider .familylink ul {
+	width: 261px; margin-left: -1px; display: block;
+}
+#sider .familylink li {
+	margin-bottom: 5px; margin-left: 5px; float: left; display: inline;
+}
+#sider .snb_color {
+	margin: 0px auto; text-align: left;
+}
+#sider .snb_color::after {
+	clear: both; display: block; content: "";
+}
+#tooltip {
+	background: url("/web/upload/msc_skin/msc/image/bg_tooltip.png"); padding: 5px 5px 3px; width: 150px; font-size: 9pt; display: block; position: absolute; z-index: 3000;
+}
+#tooltip h3 {
+	margin: 0px; color: rgb(255, 255, 255); font-size: 9pt; font-weight: normal; display: block;
+}
+#tooltip div {
+	margin: 0px; color: rgb(255, 255, 255); font-size: 9pt; font-weight: normal; display: block;
+}
+#tooltip div.ico {
+	background: url("/web/upload/msc_skin/msc/image/bg_tooltiparrow.png") no-repeat; left: 71.5px; width: 7px; height: 4px; bottom: -4px; display: block; position: absolute;
+}
+#tooltip h3 {
+	padding: 0px 5px; overflow: hidden; display: block; white-space: nowrap !important; -ms-text-overflow: ellipsis;
+}
+#contents {
+	margin-bottom: 18px;
+}
+#contents #circleBanner {
+	margin-bottom: 6px;
+}
+#contents .ad_spot_middle1 {
+	
+}
+#contents .ad_spot_middle1 ul {
+	float: left; display: block;
+}
+#contents .ad_spot_middle1 li {
+	float: left; display: inline;
+}
+#contents .ad_spot_middle1 li.ad1 {
+	margin-right: 9px;
+}
+.after::after {
+	clear: both; display: block; content: "";
+}
+#expand .ad_spot_middle2 {
+	margin-bottom: 18px;
+}
+#expand .ad_spot_middle2 ul {
+	float: left; display: block;
+}
+#expand .ad_spot_middle2 li {
+	margin-right: 6px; float: left; display: inline;
+}
+#expand .ad_spot_middle2 li.end {
+	margin-right: 0px; margin-left: 7px;
+}
+div.result {
+	background: url("/web/upload/black_skin/common/hoversearch_2.png"); margin: 0px; padding: 0px !important; left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; display: block; position: absolute; z-index: 10;
+}
+#mainTabBanner {
+	background: rgb(255, 255, 255); margin: 0px 0px 95px; width: 1348px; height: 368px;
+}
+#mainTabBanner #mainTabBig {
+	background: url("/web/upload/msc_skin/images/main/line.gif") no-repeat 449px 83px rgb(255, 255, 255); width: 450px; height: 366px; text-align: left; float: left;
+}
+#mainTabBanner #mainTabBig img {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 400px; height: 366px;
+}
+#mainTabBanner #mainTabsmall {
+	background: rgb(255, 255, 255); width: 668px; float: right;
+}
+#mainTabBanner #mainTabsmall li {
+	margin: 0px 0px 5px 5px; float: left; display: inline-block; -ms-zoom: 1;
+}
+#mainTabBanner #mainTabsmall li img {
+	border: 1px solid rgb(0, 0, 0); border-image: none; width: 160px; height: 180px;
+}
+#best_item {
+	padding: 16px 0px 0px; height: 644px; margin-top: 32px; border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: dotted; position: relative;
+}
+#best_item .tit_best {
+	width: 342px; float: left; display: block;
+}
+#best_item .best_list li {
+	margin: 0px 0px 20px 20px; height: 322px; float: left; display: block; -ms-zoom: 1;
+}
+#best_item .best_list li:first-child {
+	margin-left: 0px;
+}
+#best_item .best_list .left_L {
+	margin-left: 0px;
+}
+#best_item .best_list li img {
+	width: 322px; height: 322px;
+}
+#best_item .best_list .name {
+	padding: 4px 0px; width: 190px; line-height: 16px; float: left;
+}
+#best_item .best_list li .price_box {
+	margin: 0px auto; padding: 15px; top: 0px; width: 282px; color: rgb(255, 255, 255); display: none; position: absolute;
+}
+#best_item .best_list li .price_box a {
+	margin: 0px auto; width: 100%; height: 40px; text-align: center; color: white; font-family: Arial; font-size: 11px;
+}
+#best_item .best_list li .price_box a:link {
+	color: white; font-family: Arial; font-size: 11px;
+}
+#best_item .best_list li .price_box a:hover {
+	color: white; font-family: Arial; font-size: 11px; text-decoration: none;
+}
+#best_item .best_list li .price_box a span {
+	color: white; font-family: Arial; font-size: 11px;
+}
+#kvMain {
+	margin: 0px 0px 15px; clear: both;
+}
+#main #container #snbL {
+	margin-top: 0px;
+}
+#main #container #snbR {
+	margin-top: -25px;
+}
+#main #prdArea2 {
+	margin: 30px 0px;
+}
+#main #prdArea3 {
+	padding: 0px 0px 30px; border-bottom-color: rgb(228, 177, 176); border-bottom-width: 40px; border-bottom-style: solid;
+}
+#main .btnMore a {
+	padding: 20px 0px 4px 529px; display: block;
+}
+#boardArea {
+	margin: 30px 0px; overflow: hidden;
+}
+.mainBoard p {
+	margin: 10px 0px 0px;
+}
+.mainBoard thead {
+	left: -1000px; top: -1000px; width: 0px; height: 0px; visibility: hidden; position: absolute;
+}
+.mainBoard td {
+	border: currentColor; border-image: none; line-height: 1.8em; font-size: 0.9em;
+}
+.mainBoard td.title a {
+	color: rgb(143, 143, 145); text-decoration: underline;
+}
+.mainBoard td.title a:hover {
+	color: rgb(143, 143, 145); text-decoration: underline;
+}
+#board2nd {
+	width: 270px; float: right;
+}
+#board2nd h2 {
+	margin: 0px 0px 20px; height: 20px; border-bottom-color: rgb(222, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#board3rd td {
+	display: none;
+}
+#board3rd td.title {
+	width: auto; display: block;
+}
+#quickEvent {
+	width: 160px; height: auto; overflow: hidden; margin-top: 423px; margin-left: 10px;
+}
+#quickEvent .quickE_list {
+	border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(204, 204, 204) rgb(204, 204, 204); padding: 50px 6px; border-image: none; letter-spacing: -0.04em; position: relative;
+}
+.quickE_list li {
+	background: rgb(94, 94, 94); width: 145px; height: 65px; text-align: center; color: rgb(255, 255, 255); line-height: 65px; font-size: 11px; margin-top: 10px; display: block;
+}
+.quickE_list li:first-child {
+	margin-top: 0px;
+}
+.quickE_list li a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.quickE_list .prev {
+	left: 75px; position: absolute;
+}
+.quickE_list .next {
+	left: 75px; position: absolute;
+}
+.quickE_list .prev {
+	top: 20px;
+}
+.quickE_list .next {
+	bottom: 20px;
+}
+#banner {
+	width: 160px; height: 450px; overflow: hidden; position: relative;
+}
+.path {
+	margin: 3px 0px 17px; overflow: hidden; display: none;
+}
+.path h3 {
+	margin: 0px; text-indent: -9999em; float: left;
+}
+.path ol {
+	float: right;
+}
+.path li {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/bg_path.gif") no-repeat 0px 50%; padding: 0px 0px 0px 22px; font-size: 0.9em; display: inline;
+}
+.path li.displaynone {
+	display: none;
+}
+.path li.first {
+	background: none;
+}
+.titleArea {
+	margin: 70px 0px 30px;
+}
+.titleArea::after {
+	clear: both; display: block; content: "";
+}
+.titleArea h2 {
+	height: 21px; -ms-zoom: 1;
+}
+.titleArea h2 span {
+	padding: 0px; height: 21px; color: rgb(39, 40, 35); font-size: 16px; float: left;
+}
+.titleArea h3 {
+	margin: 0px 0px 20px; font-size: 14px;
+}
+.titleArea p {
+	padding: 3px 0px 0px; color: rgb(143, 143, 143); line-height: 1.5em; clear: both; font-size: 0.9em;
+}
+#banners {
+	margin: 25px 0px 0px; overflow: hidden; -ms-zoom: 1;
+}
+#banners p img {
+	border-bottom-color: rgb(231, 230, 216); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.utilBanner {
+	margin: 25px 0px 0px;
+}
+#shopMain {
+	margin: 30px 0px 0px;
+}
+.shopMain {
+	padding: 0px; border: 1px solid rgb(181, 180, 180); border-image: none; width: 23%; height: 150px; font-size: 8pt; margin-right: 30px; margin-bottom: 17px; float: left;
+}
+#contents .shopMain h3 {
+	color: rgb(51, 51, 51); padding-bottom: 10px; font-size: 0px; font-weight: normal;
+}
+#contents .shopMain h3 strong {
+	padding: 0px; font-family: "Lucida Sans",serif; font-size: 0px;
+}
+#contents .shopMain h3 a:hover {
+	text-decoration: none;
+}
+#contents .shopMain p a {
+	color: rgb(102, 102, 102); line-height: 16px; letter-spacing: -1px; font-size: 11px;
+}
+#contents .shopMain p a:hover {
+	color: rgb(102, 102, 102); line-height: 16px; letter-spacing: -1px; font-size: 11px;
+}
+.shopMain .order {
+	background: url("/web/upload/black_skin/myshop/myshop_bg_01_w.gif") no-repeat top; padding: 65px 15px 0px; width: 230px; height: 85px;
+}
+.shopMain .profile {
+	background: url("/web/upload/black_skin/myshop/myshop_bg_02_w.gif") no-repeat top; padding: 65px 15px 0px; width: 230px; height: 85px;
+}
+.shopMain .wishlist {
+	background: url("/web/upload/black_skin/myshop/myshop_bg_03_w.gif") no-repeat top; padding: 65px 15px 0px; width: 230px; height: 85px;
+}
+.shopMain .mileage {
+	background: url("/web/upload/black_skin/myshop/myshop_bg_04_w.gif") no-repeat top; padding: 65px 15px 0px; width: 230px; height: 85px;
+}
+.shopMain .consult {
+	background: url("/web/upload/black_skin/myshop/myshop_bg_05_w.gif") no-repeat top; padding: 65px 15px 0px; width: 230px; height: 85px;
+}
+.shopMain .coupon {
+	background: url("/web/upload/black_skin/myshop/myshop_bg_06_w.gif") no-repeat top; padding: 65px 15px 0px; width: 230px; height: 85px;
+}
+.shopMain .board {
+	background: url("/web/upload/black_skin/myshop/myshop_bg_07_w.gif") no-repeat top; padding: 65px 15px 0px; width: 230px; height: 85px;
+}
+.shopMain .address {
+	background: url("/web/upload/black_skin/myshop/myshop_bg_08_w.gif") no-repeat top; padding: 65px 15px 0px; width: 230px; height: 85px;
+}
+#message {
+	padding: 10px; color: rgb(139, 139, 140); clear: both; font-size: 0.9em; border-top-color: rgb(170, 170, 170); border-bottom-color: rgb(170, 170, 170); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#message h3 {
+	margin: 0px; padding: 0px 0px 10px; color: rgb(51, 51, 51); font-size: 11px; font-weight: bold;
+}
+#message li {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif") no-repeat 0px 2px; padding: 0px 0px 0px 10px; line-height: 18px;
+}
+#message li > strong {
+	padding: 0px 0px 5px; display: block;
+}
+#message li ul {
+	padding: 0px 0px 20px;
+}
+#message li li {
+	background: none; padding: 0px;
+}
+#message p.info {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif") no-repeat 0px 2px; padding: 0px 0px 15px 10px; color: rgb(52, 167, 179); line-height: 18px;
+}
+#message a {
+	color: rgb(139, 139, 140);
+}
+#message a:hover {
+	color: rgb(139, 139, 140);
+}
+#message em {
+	color: rgb(52, 167, 179); font-style: normal; text-decoration: underline;
+}
+#inquiry {
+	margin: 0px 0px 20px; overflow: hidden;
+}
+#inquiry p {
+	color: rgb(143, 143, 143); line-height: 2em; font-size: 0.9em; float: left;
+}
+#inquiry p.icon {
+	overflow: hidden; float: right;
+}
+#inquiry p.icon img {
+	padding: 20px 10px 0px; float: left;
+}
+.basketInfo {
+	margin: 30px 0px; padding: 20px 10px; color: rgb(139, 139, 140); font-size: 0.9em; border-top-color: rgb(153, 153, 153); border-bottom-color: rgb(153, 153, 153); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.basketInfo h3 {
+	padding: 0px 0px 10px; color: rgb(52, 167, 179); line-height: 18px; font-size: 11px; font-weight: bold;
+}
+.basketInfo li {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif") no-repeat 0px 2px; padding: 0px 0px 0px 10px; line-height: 18px;
+}
+.basketInfo li > strong {
+	padding: 0px 0px 5px; display: block;
+}
+.basketInfo li ul {
+	padding: 0px 0px 20px;
+}
+.basketInfo li li {
+	background: none; padding: 0px;
+}
+.basketInfo a {
+	color: rgb(139, 139, 140);
+}
+.basketInfo a:hover {
+	color: rgb(139, 139, 140);
+}
+.basketInfo.mileageType {
+	margin: 50px 0px 0px;
+}
+.basketInfo.couponType em {
+	color: rgb(52, 167, 179); text-decoration: underline;
+}
+#addManage {
+	padding: 10px; color: rgb(139, 139, 140); font-size: 0.9em; border-top-color: rgb(170, 170, 170); border-bottom-color: rgb(170, 170, 170); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#addManage h3 {
+	margin: 0px; padding: 0px 0px 10px; color: rgb(51, 51, 51); font-size: 11px;
+}
+#addManage li {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif") no-repeat 0px 2px; padding: 0px 0px 0px 10px; line-height: 18px;
+}
+#addManage li > strong {
+	padding: 0px 0px 5px; display: block;
+}
+.couponInfo {
+	background: rgb(244, 244, 244); margin: 0px 0px 30px; padding: 20px;
+}
+.couponInfo li {
+	background: url("http://img.echosting.cafe24.com/design/skin/mono/ico_info.gif") no-repeat 0px 2px; padding: 0px 0px 0px 10px; color: rgb(143, 143, 143); line-height: 18px; font-size: 11px;
+}
+.couponInfo strong {
+	color: rgb(242, 101, 34);
+}
+.class_btn_grey_s {
+	background: rgb(148, 148, 149); padding: 0px 20px; height: 28px; color: rgb(255, 255, 255) !important; line-height: 28px; display: block;
+}
+.class_btn_grey_s:hover {
+	background: rgb(121, 121, 121); text-decoration: none;
+}
+.class_btn_grey_s1 {
+	background: rgb(148, 148, 149); padding: 0px 20px; height: 28px; color: rgb(255, 255, 255) !important; line-height: 28px; font-weight: bold; display: block;
+}
+.class_btn_grey_s1:hover {
+	background: rgb(121, 121, 121); font-weight: bold; text-decoration: none;
+}
+.class_btn_dgrey_s {
+	background: rgb(95, 95, 95); padding: 0px 20px; height: 28px; color: rgb(255, 255, 255) !important; line-height: 28px; display: block;
+}
+.class_btn_dgrey_s:hover {
+	background: rgb(73, 73, 73); text-decoration: none;
+}
+.class_btn_tealB {
+	background: rgb(14, 175, 166); border: 1px solid rgb(3, 148, 140); border-image: none; width: 225px; height: 45px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 45px; font-weight: bold; display: block;
+}
+.class_btn_tealB:hover {
+	background: rgb(2, 155, 146); text-decoration: none;
+}
+.class_btn_dgreyB {
+	background: rgb(85, 85, 85); border: 1px solid rgb(68, 68, 68); border-image: none; width: 225px; height: 45px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 45px; font-weight: bold; display: block;
+}
+.class_btn_dgreyB:hover {
+	background: rgb(68, 68, 68); text-decoration: none;
+}
+.class_btn_greyB {
+	background: rgb(148, 148, 149); border: 1px solid rgb(136, 136, 136); border-image: none; width: 225px; height: 45px; text-align: center; color: rgb(255, 255, 255) !important; line-height: 45px; font-weight: bold; display: block;
+}
+.class_btn_greyB:hover {
+	background: rgb(119, 119, 119); text-decoration: none;
+}
+.class_btn_greySs {
+	background: rgb(148, 148, 149); padding: 0px 5px; height: 18px; color: rgb(255, 255, 255) !important; line-height: 18px; font-size: 11px; display: block;
+}
+.class_btn_greySs:hover {
+	background: rgb(121, 121, 121); text-decoration: none;
+}
+.class_btn_DgreySs {
+	background: rgb(95, 95, 95); padding: 0px 5px; height: 18px; color: rgb(255, 255, 255) !important; line-height: 18px; font-size: 11px; display: block;
+}
+.class_btn_DgreySs:hover {
+	text-decoration: none;
+}
+.help {
+	margin: 40px 0px 0px; border: 1px solid rgb(214, 212, 212); border-image: none; line-height: 18px;
+}
+.help h3 {
+	background: rgb(251, 251, 251); padding: 9px 0px 6px 10px; color: rgb(53, 53, 53); font-size: 12px; border-bottom-color: rgb(232, 231, 231); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.help .content {
+	padding: 0px 9px 12px;
+}
+.help .content h4 {
+	margin: 22px 0px -4px; color: rgb(0, 0, 0); font-size: 12px; font-weight: normal;
+}
+.help .content h4:first-child {
+	margin-top: 13px;
+}
+.help .content p {
+	margin: 15px 0px 0px 10px; color: rgb(117, 117, 117);
+}
+.help .content ul {
+	margin: 15px 0px 0px 11px;
+}
+.help .content li {
+	background: url("http://img.echosting.cafe24.com/skin/base_zh_CN/common/ico_number.png") no-repeat; padding: 0px 0px 0px 25px; color: rgb(117, 117, 117);
+}
+.help .content li.item1 {
+	background-position: -484px 0px;
+}
+.help .content li.item2 {
+	background-position: -434px -100px;
+}
+.help .content li.item3 {
+	background-position: -384px -200px;
+}
+.help .content li.item4 {
+	background-position: -334px -300px;
+}
+.help .content li.item5 {
+	background-position: -284px -400px;
+}
+.help .content li.item6 {
+	background-position: -234px -500px;
+}
+.help .content li.item7 {
+	background-position: -184px -600px;
+}
+.help .content li.item8 {
+	background-position: -134px -700px;
+}
+.help .content li.item9 {
+	background-position: -84px -800px;
+}
+.help .content li.item10 {
+	background-position: -34px -900px;
+}
+.titleArea {
+	margin: 10px 0px 20px; font-family: "Nanum Gothic"; font-size: 12px; font-style: normal; font-weight: 400; border-bottom-color: rgb(232, 232, 232); border-bottom-width: 1px; border-bottom-style: solid; min-height: 30px;
+}
+.titleArea h2 {
+	background: url("http://img.echosting.cafe24.com/skin/base_zh_CN/common/ico_heading.gif") no-repeat 0px 2px; padding: 0px 0px 0px 12px; color: rgb(46, 46, 46); font-size: 16px; display: inline-block;
+}
+.titleArea p {
+	background: url("http://img.echosting.cafe24.com/skin/base_zh_CN/common/ico_title.gif") no-repeat 0px 0px; margin: 0px 0px 0px 6px; padding: 0px 0px 0px 10px; color: rgb(147, 147, 147); display: inline-block;
+}
+.titleArea ul {
+	padding: 5px 0px; color: rgb(147, 147, 147); line-height: 18px;
+}
+.titleArea ul li {
+	background: url("http://img.echosting.cafe24.com/skin/base_zh_CN/common/ico_info.gif") no-repeat 4px 7px; padding: 0px 0px 0px 9px;
+}
+.titleAreas {
+	margin: 70px 0px 30px;
+}
+.titleAreas::after {
+	clear: both; display: block; content: "";
+}
+.titleAreas h2 {
+	height: 21px; -ms-zoom: 1;
+}
+.titleAreas h2 span {
+	padding: 0px; height: 21px; color: rgb(39, 40, 35); font-size: 16px; float: left;
+}
+.titleAreas h3 {
+	margin: 0px 0px 20px; font-size: 14px;
+}
+.titleAreas p {
+	padding: 3px 0px 0px; color: rgb(143, 143, 143); line-height: 1.5em; clear: both; font-size: 0.9em;
+}
+#footer .fnb {
+	height: 34px; display: block;
+}
+.xans-layout-footer {
+	height: 100%; text-align: center;
+}
+.xans-layout-footer .utilMenu {
+	margin: 0px auto; float: right; display: block;
+}
+.xans-layout-footer .utilMenu li {
+	padding: 11px 13px; float: left; display: inline;
+}
+.xans-layout-footer .utilMenu li a {
+	margin: 0px; padding: 0px; color: rgb(113, 113, 113); display: block;
+}
+.xans-layout-footer .inner {
+	
+}
+.fnb {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 1350px; height: 30px; bottom: 0px; line-height: 30px; float: right; position: fixed; z-index: 10000;
+}
+.fnb .utilMenu {
+	margin: 0px auto; float: right; display: block;
+}
+.fnb .utilMenu li {
+	padding: 11px 13px; float: left; display: inline;
+}
+.xans-layout-footer img {
+	_display: inline-block;
+}
+.xans-layout-footer p#address {
+	width: 100%; text-align: center; color: rgb(160, 160, 160); line-height: 19px; padding-top: 10px; clear: both; font-size: 11px; display: block;
+}
+.xans-layout-footer p#address span {
+	
+}
+.xans-layout-footer p#address span a {
+	color: rgb(29, 131, 156);
+}
+.xans-layout-footer p#address span a:hover {
+	color: rgb(29, 131, 156);
+}
+#address .humming_text {
+	color: rgb(118, 118, 118); font-family: arial; font-size: 12px;
+}
+.xans-layout-footer p#address span#copy {
+	color: rgb(85, 85, 85); padding-top: 10px; clear: both; font-size: 8pt; display: block;
+}
+.xans-layout-footer p#address span#copy .mallname {
+	color: rgb(0, 0, 0) !important; font-weight: bold;
+}
+.xans-layout-footer #top {
+	top: 0px; right: 0px; position: absolute;
+}
+.xans-layout-footer #logo {
+	right: 0px; bottom: 10px; position: absolute;
+}
+.xans-layout-footer .escrow {
+	margin: 20px auto;
+}
+.add_info {
+	padding: 10px 10px 8px; border: 1px solid rgb(221, 221, 221); border-image: none; width: 1326px; text-align: center; color: rgb(153, 153, 153);
+}
+.add_info .cont {
+	font-family: "arial","µ¸¿ò"; font-size: 11px;
+}
+.add_info .title {
+	color: rgb(51, 51, 51); font-family: "Levenim MT","arial"; font-size: 12px; margin-right: 10px; margin-left: 20px; display: inline-block;
+}
+.add_info .call {
+	height: 23px; line-height: 23px;
+}
+.add_info .call img {
+	vertical-align: middle;
+}
+.add_info .account_name {
+	color: rgb(119, 119, 119); margin-left: 10px; display: inline-block;
+}
+.add_info .call_no {
+	color: rgb(244, 115, 0); font-weight: bold;
+}
+.xans-layout-statelogoff {
+	float: left;
+}
+.xans-layout-statelogon {
+	float: left;
+}
+.xans-layout-logotop {
+	text-align: center;
+}
+.xans-layout-logotop img {
+	
+}
+.xans-layout-searchheader {
+	margin: 10px 0px; top: 0px; right: 150px; float: right; position: absolute;
+}
+.xans-layout-searchheader fieldset {
+	border-radius: 2px; border: 1px solid rgb(217, 217, 217); border-image: none;
+}
+.xans-layout-searchheader #keyword {
+	background: rgb(255, 255, 255); padding: 0px 0px 0px 9px; border: 0px currentColor; border-image: none; width: 100px; height: 30px; color: rgb(124, 131, 137); line-height: 32px; font-size: 12px;
+}
+.xans-layout-category {
+	
+}
+.xans-layout-category h2 {
+	margin: 0px 0px 23px; display: block;
+}
+.xans-layout-category .postion {
+	z-index: 1;
+}
+.xans-layout-category ul {
+	margin: 0px;
+}
+.xans-layout-category li {
+	height: 20px; display: block; position: relative;
+}
+.xans-layout-category li a {
+	line-height: 20px; display: inline-block;
+}
+.xans-layout-category li a:hover {
+	
+}
+.xans-layout-category li.on {
+	position: relative; z-index: 91;
+}
+.xans-layout-category li.on > a {
+	
+}
+.xans-layout-category li img {
+	margin: 0px; display: block;
+}
+.xans-layout-category .sub-category {
+	background: rgb(255, 255, 255); padding: 10px 0px; border: 1px solid rgb(167, 167, 167); border-image: none; left: 84px; top: 0px; width: 150px; position: absolute; z-index: 90;
+}
+.xans-layout-category .sub-category ul {
+	margin: 0px; width: 100%; float: left;
+}
+.xans-layout-category .sub-category a {
+	padding: 0px 10px; line-height: 20px; font-style: normal; font-weight: bold; display: block;
+}
+.xans-layout-category .sub-category a:hover {
+	background: rgb(246, 244, 240); text-decoration: none;
+}
+.xans-layout-category .sub-category li {
+	background: rgb(255, 255, 255); border: 0px currentColor; border-image: none; width: 100%; height: 20px; line-height: 220%; float: left; display: block; white-space: nowrap; position: static;
+}
+.xans-product-4 {
+	margin: 0px 0px 50px;
+}
+.xans-product-4 h2 {
+	margin: 0px 0px 28px 4px;
+}
+.xans-product-4 h2 span {
+	float: left;
+}
+.xans-product-4 ul {
+	margin: 0px 0px 0px -4px; width: 265px; clear: both; -ms-zoom: 1;
+}
+.xans-product-4 ul::after {
+	clear: both; display: block; content: "";
+}
+.xans-product-4 ul li {
+	margin: 0px 0px 5px 5px; padding: 0px; width: 83px; line-height: 1.6em; float: left;
+}
+.xans-product-4 ul .prdImg {
+	display: block;
+}
+.xans-product-4 ul .prdImg img {
+	padding: 2px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 77px; display: block;
+}
+.xans-product-4 .prdList li .box {
+	display: none;
+}
+.xans-product-4 ul .name {
+	padding: 4px 0px; width: 160px; line-height: 16px; float: left;
+}
+.xans-product-4 ul .price {
+	clear: both; display: block;
+}
+.xans-product-4 ul .mileage {
+	clear: both; display: block;
+}
+.xans-product-4 ul .mileage img {
+	vertical-align: middle;
+}
+.xans-product-4 ul .custom {
+	text-decoration: line-through;
+}
+.xans-product-4 ul .manu {
+	display: block;
+}
+.xans-product-4 ul .btn {
+	text-align: center; display: block;
+}
+.xans-product-4 .prdList ul.prdColor {
+	margin: 5px 0px;
+}
+.xans-product-4 .prdList ul.prdColor li {
+	margin: 0px 2px 2px 0px; padding: 0px; border: 1px solid rgb(150, 150, 150); border-image: none; width: 8px; height: 8px;
+}
+.xans-product-4 .prdList ul.prdColor li span {
+	height: 100%; display: block;
+}
+.xans-product-4 ul .xans-product-listitem {
+	min-width: 0px;
+}
+.xans-product-4 ul .xans-product-listitem {
+	margin: 0px;
+}
+.xans-product-4 ul .xans-product-listitem li {
+	padding: 0px; width: auto; text-align: center; overflow: hidden; float: none;
+}
+.xans-product-4 ul .xans-product-listitem li .title {
+	font-weight: normal;
+}
+.xans-product-4 ul .resultdiv {
+	height: 80px; clear: both; display: block;
+}
+.xans-product-4 ul .price_box {
+	height: 80px; clear: both; display: block;
+}
+.xans-layout-poll {
+	margin: 25px 0px; color: rgb(143, 143, 145);
+}
+.xans-layout-poll h2 {
+	color: rgb(255, 247, 153); font-size: 16px;
+}
+.xans-layout-poll h2 img {
+	display: block;
+}
+.xans-layout-poll h3 {
+	padding: 8px 0px 14px; color: rgb(75, 151, 180); line-height: 1.3em; font-size: 11px; font-weight: normal;
+}
+.xans-layout-poll h3 em {
+	height: 1px; text-indent: -1000em; display: block;
+}
+.xans-layout-poll li {
+	line-height: 1.8em; font-size: 11px;
+}
+.xans-layout-poll li input {
+	margin-right: 4px;
+}
+.xans-layout-poll .btnArea {
+	margin: 0px; padding: 20px 0px;
+}
+.attend {
+	width: 76px; text-align: left; overflow: hidden; padding-bottom: 10px; float: right; display: block;
+}
+.facebook_likebutton {
+	width: 76px; text-align: center; overflow: hidden; float: right; display: block;
+}
+.facebook_likebutton a {
+	float: left;
+}
+.xans-layout-productrecent {
+	margin: 2px 0px 15px; width: 76px; text-align: center; float: right; display: block;
+}
+.xans-layout-productrecent h2 {
+	height: 34px; border-top-color: rgb(221, 221, 221); border-bottom-color: rgb(45, 45, 45); border-top-width: 1px; border-bottom-width: 3px; border-top-style: solid; border-bottom-style: solid;
+}
+.xans-layout-productrecent h2 a {
+	margin-top: 13px; display: block;
+}
+.xans-layout-productrecent .btn {
+	
+}
+.xans-layout-productrecent .btn img {
+	cursor: pointer;
+}
+.xans-layout-productrecent ul {
+	margin: 0px auto 16px; width: 76px; border-bottom-color: rgb(45, 45, 45); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.xans-layout-productrecent li img {
+	width: 70px; display: block;
+}
+.xans-layout-productrecent li span {
+	padding: 0px 0px 5px; line-height: 18px; font-size: 12px; display: block;
+}
+.xans-layout-productrecent a {
+	color: rgb(131, 131, 130);
+}
+.xans-layout-productrecent a:hover {
+	color: rgb(131, 131, 130);
+}
+.topbotton {
+	right: 100px; z-index: 1000;
+}
+
+#mainimage{
+   width:480px;
+   height:480px;
+   background-size: 480px 480px;
+}
+#description{
+    width:80px;
+   height:80px;
+   background-size: 80px 80px;
+}
