@@ -14,11 +14,6 @@ $result1 = mysql_query($sql1,$conn);
 $sql2 = "SELECT sum(amount*num) as amount ,name,address FROM  shoppingmall.".$buyhistory_tbl." where id='$person' group by id";
 $result2 = mysql_query($sql2,$conn);
 
-var a=2;
-var b=2;
-
-var c=3;
-
 
 if(isset($_REQUEST['param'])){//조건 검색이 설정되있는경우
     $param=$_REQUEST['param'];
