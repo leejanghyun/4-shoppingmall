@@ -14,6 +14,8 @@ $result1 = mysql_query($sql1,$conn);
 $sql2 = "SELECT sum(amount*num) as amount ,name,address FROM  shoppingmall.".$buyhistory_tbl." where id='$person' group by id";
 $result2 = mysql_query($sql2,$conn);
 
+var a=2;
+
 if(isset($_REQUEST['param'])){//조건 검색이 설정되있는경우
     $param=$_REQUEST['param'];
     switch($param){
@@ -28,7 +30,7 @@ if(isset($_REQUEST['param'])){//조건 검색이 설정되있는경우
             $current_page= $page-1;
             $start=$current_page++*$page_size;
             $sql3="SELECT * FROM  shoppingmall.".$buyhistory_tbl." where id='$person'";
-            $sql3=$sql3." LIMIT 8 offset ".$start;       
+            $sql3=$sql3." LIMIT 8 offset ".$start;
             break;
         case 1:
             $sql3="SELECT * FROM  shoppingmall.".$person_tbl." where id='$person'";
