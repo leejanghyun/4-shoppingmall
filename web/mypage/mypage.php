@@ -15,6 +15,7 @@ $sql2 = "SELECT sum(amount*num) as amount ,name,address FROM  shoppingmall.".$bu
 $result2 = mysql_query($sql2,$conn);
 
 var a=2;
+var b=2;
 
 if(isset($_REQUEST['param'])){//조건 검색이 설정되있는경우
     $param=$_REQUEST['param'];
